@@ -1,0 +1,11 @@
+{
+  "wbs": 112,
+  "modules": 10,
+  "uat": 33,
+  "raci": 21,
+  "decisions": 13,
+  "dependencyGraph": "acyclic; all predecessor IDs present",
+  "workflowChecks": "incomplete assignment, missing WBS evidence, missing UAT evidence, live capacity verified and restored",
+  "initialAssignment": "Falta compromiso nominal",
+  "formulaScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}
