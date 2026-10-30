@@ -1,6 +1,6 @@
 # Método operativo, aceptación y soporte
 
-Versión 0.4 propuesta, actualizada el 30/10 con Gobierno, Asignaciones y RACI del libro. Basada en `Plan de Despliegue - Estrategia.md` por elección expresa del usuario. Convivencia gradual: SGM conserva temporalmente stock y pendientes, recibe las operaciones de Connexa y mantiene el envío de OC a proveedores. Aplicar a las capacidades y poblaciones de cada oleada. Las reglas y umbrales nuevos de este documento deben acordarse con DIARCO.
+Versión 0.5 propuesta, actualizada el 30/10 con Gobierno, Asignaciones, RACI y minutas S33–S36. Basada en `Plan de Despliegue - Estrategia.md` por elección expresa del usuario. Convivencia gradual: SGM conserva temporalmente stock y pendientes, recibe las operaciones de Connexa y mantiene el envío de OC a proveedores. Aplicar a las capacidades y poblaciones de cada oleada. Las reglas y umbrales nuevos de este documento deben acordarse con DIARCO.
 
 ## Unidad de implementación
 
@@ -79,6 +79,19 @@ Defecto crítico: detiene un proceso esencial o produce resultado de negocio inc
 ## Convivencia SGM y corte
 
 Preparar por entidad y etapa una matriz con lector, escritor autorizado, origen del stock/pendiente, identificación cruzada, latencia tolerada, validación, dueño y contingencia. La Estrategia rectora define la etapa inicial: SGM mantiene stock/pendientes oficiales y el circuito de envío a proveedores; Connexa origina progresivamente las operaciones y sincroniza. Confirmar la implementación real de ese diseño antes de cada habilitación. Maestros, listas y surtido pueden tener cortes propios una vez certificada la integración. Evitar que la convivencia se convierta en dos escritores simultáneos sin control.
+
+La minuta técnica S33 propone **un único escritor por dominio a partir de una fecha de traspaso acordada**, no un cambio global de autoridad para todo B1. Registrar operación, tablas/dependencias, dirección, frecuencia, permisos de edición, corte, reconciliación y retorno para cada dominio. Su matriz inicial a validar es:
+
+| Dominio | Situación conversada el 27/10 | Prueba previa al cambio |
+|---|---|---|
+| Proveedores | Connexa lee inicialmente desde SGM; archivo SAP directo sólo en evaluación | Identificar estructura/frecuencia de SAP y conservar lectura SGM hasta cambio aprobado |
+| Artículos y artículo–sucursal | Mantenimiento progresivo en Connexa con actualización a SGM | Alta/cambio/baja lógica y todas las tablas/relaciones SGM cubiertas; restricción de edición anterior |
+| Listas y condiciones de compra | Gestión prevista en Connexa con réplica necesaria a SGM | Vigencia, precedencia por artículo/sucursal, descuentos e impuestos aprobados por negocio |
+| OC | Connexa origina y autoriza completa; SGM la incorpora para recepción y comunicación al proveedor | Procedimiento y contrato cabecera/detalle, numeración, estado, canal EDI/correo y acuse funcional |
+| Recepción y pendientes | SGM sigue operando los sitios no transferidos | Saldos y efectos de la recepción conciliados; contrato de retorno todavía por definir |
+| Transferencias | Connexa como origen futuro; Valkimia ejecuta y SGM necesita movimientos | Arquitectura aprobada y retorno diferenciado de preparado, despachado y no preparado, con remito y stock |
+
+S36 concluye que **Valkimia Web es una propuesta para evaluar**, no una interfaz aprobada para el 04/11. Adecuar la versión actual o usar tablas intermedias implica trabajo adicional; Excel/carga manual no quedó validado para operación masiva DIARCO. No incluir M09 en una oleada sólo porque Connexa puede producir un archivo: el circuito debe preservar pedido, pendiente, remito, movimiento de stock y estados en SGM/Valkimia/Connexa.
 
 Checklist previo a cada corte:
 

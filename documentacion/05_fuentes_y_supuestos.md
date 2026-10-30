@@ -1,6 +1,6 @@
 # Fuentes, supuestos y límites de la propuesta
 
-Versión 0.4. Corte documental 30/10/2026. No se consultaron bases productivas ni se ejecutaron corridas.
+Versión 0.5. Corte documental 30/10/2026. No se consultaron bases productivas ni se ejecutaron corridas.
 
 ## Trazabilidad
 
@@ -21,6 +21,10 @@ Versión 0.4. Corte documental 30/10/2026. No se consultaron bases productivas n
 | S13 | Instrucción posterior del usuario, 29/10/2026 | Desde el 04/11: módulos productivos disponibles, smoke tests y algunos días de paralelo para aceptación progresiva. Comparar OC valorizada Connexa/DIARCO conservando validez de información DIARCO |
 | S31 | Hoja Gobierno del [plan editable](../outputs/20261029/DIARCO_Bloque1_Plan_v0.2.xlsx), editada por el usuario el 30/10 | Siete registros de gobierno, incluidos Guillermo Añaños, Pablo Duplessy y la función técnica compartida Alejandro Ledesma / Eduardo Ettlin. Sus estados siguen como propuestas a confirmar |
 | S32 | Hoja Asignaciones del [plan editable](../outputs/20261029/DIARCO_Bloque1_Plan_v0.2.xlsx), editada por el usuario el 30/10 | Interlocutores ampliados por módulo. Los campos de asignación y aceptación nominal siguen sin completar |
+| S33 | [Minuta técnica interfaces SGM–Connexa](https://drive.google.com/file/d/1vVapFccN6Q5JwaczS9HzvOg-vHYfSFK0/view), 27/10 | Criterio de un escritor por dominio, proveedor desde SGM y OC completa hacia SGM. Minuta para validar; no prueba interfaz terminada |
+| S34 | [Minuta precios de compra](https://drive.google.com/file/d/1Kv7_vKDIryvGvhjrAVbCJxt941vG64a_/view), 27/10 | Listas/reglas/vigencias, importación y pruebas de valorización. Impuestos y costos aún abiertos |
+| S35 | [Minuta Javier Vilela](https://drive.google.com/file/d/1GT2yxSq5Q0ke2VfPFcdCfeNNIlH541dQ/view) y [transcripción original «Revisión Plan de Proyecto y Clusters y Surtido»](https://drive.google.com/file/d/18XnLGtnxrzEdNg3MWw66tdf-cyWvKZih/view), misma reunión del 26/10 | Lo llama sponsor del proyecto. Se debe conciliar esa función con el Gobierno propuesto; no sustituir nombres por inferencia |
+| S36 | [Minuta técnica Valkimia](https://drive.google.com/file/d/1vJf2eMuDx_mCE9q9ae8kTVQFCrJ4NVgn/view), 28/10 según nombre del archivo | Web se eleva para evaluación, sin aprobación. Excel/carga manual no validada para escala DIARCO. Fecha interna de transcripción discrepante |
 
 Rutas locales relativas al directorio de este documento. Las fuentes locales del framework están fuera de CNX_BLOQUE1; no se modificaron.
 
@@ -43,6 +47,8 @@ Rutas locales relativas al directorio de este documento. Las fuentes locales del
 - Pedidos de logística/transportes del documento de octubre exceden el alcance rector de PDD Fase 1. Deben asignarse a otro módulo/bloque o cambiar el alcance mediante decisión expresa.
 - Listas y acuerdos de compra son distintos de administración del precio de venta. El segundo no ingresa al Bloque 1 por semejanza de nombres.
 - Se dispone de alcance macro B1 según S10 y siete registros en Gobierno tras S31. Siguen pendientes clasificación fina de GAPS, aceptación de funciones del proyecto, líder operativo DIARCO, responsables operativos de IT y mesa, dueños, referentes, suplentes, dedicaciones, volumen piloto, cobertura de soporte y resultados de aceptación. Los nombres de S32 son interlocutores, no titulares designados.
+- S35 menciona a Javier Vilela como sponsor del proyecto, mientras Gobierno propone a Pablo Bertolissio como sponsor operativo. La estructura de patrocinio y las facultades de cada uno deben quedar en el acta; ninguna minuta sustituye esa decisión.
+- S36 reduce la confianza en usar Excel como contingencia de Valkimia a escala DIARCO. La viabilidad de M09 en la primera oleada depende de una alternativa aprobada, contrato de datos y prueba con SGM/Valkimia.
 
 ## Uso de estimaciones
 
@@ -52,7 +58,7 @@ Los dos ciclos de piloto, cinco días de estabilidad, 100% de casos críticos y 
 
 ## Control de versión
 
-0.1, 29/10/2026: primera propuesta y kit editable. 0.2, 29/10/2026: minutas recientes y controles del paralelo. 0.3, 30/10/2026: correspondencia documental con Gobierno y Asignaciones editadas por el usuario. 0.4, 30/10/2026: RACI CIO/CMZ, tareas WBS, capacidad, formación, decisión D14 y riesgos R12/R13. Los cambios posteriores deben registrar autor, versión, fuente/decisión y pruebas afectadas. Las aprobaciones se registrarán por persona autorizada; no se infieren por presencia en una reunión ni por recepción del material.
+0.1, 29/10/2026: primera propuesta y kit editable. 0.2, 29/10/2026: minutas recientes y controles del paralelo. 0.3, 30/10/2026: correspondencia documental con Gobierno y Asignaciones editadas por el usuario. 0.4, 30/10/2026: RACI CIO/CMZ, tareas WBS, capacidad, formación, decisión D14 y riesgos R12/R13. 0.5, 30/10/2026: integración documental de S33–S36, sin atribuirles aprobación de alcance ni cierre técnico. Los cambios posteriores deben registrar autor, versión, fuente/decisión y pruebas afectadas. Las aprobaciones se registrarán por persona autorizada; no se infieren por presencia en una reunión ni por recepción del material.
 
 ## Fuentes incorporadas desde IMPLEMENTACION
 

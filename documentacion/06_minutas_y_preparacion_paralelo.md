@@ -1,6 +1,21 @@
 # Minutas recientes y preparación del paralelo desde el 04/11
 
-Versión 0.3. Minutas revisadas el 29/10/2026 y nómina actualizada el 30/10/2026 desde el libro editado por el usuario. Fuente principal: IMPLEMENTACION, complementada por REUNIONES. La instrucción del usuario sobre convivencia gradual y arranque desde el 04/11 prevalece sobre las fechas anteriores.
+Versión 0.5. Minutas revisadas hasta el 30/10/2026 y nómina actualizada desde el libro editado por el usuario. Fuente principal: IMPLEMENTACION, complementada por REUNIONES. La instrucción del usuario sobre convivencia gradual y arranque desde el 04/11 prevalece sobre las fechas anteriores.
+
+## Novedades de las minutas 26–28/10 incorporadas el 30/10
+
+Las cuatro minutas nuevas figuran **para validación de sus participantes**. Se distinguen los criterios conversados de una decisión formal o una funcionalidad demostrada en producción.
+
+| Fuente | Información nueva con efecto en B1 | Verificación o decisión antes del paralelo |
+|---|---|---|
+| S33, interfaces SGM–Connexa, 27/10 | Un único escritor por dominio y fecha de traspaso; proveedores siguen leyéndose inicialmente desde SGM. Se propone que Connexa origine y autorice la OC completa, y SGM la incorpore ya generada para recepción y envío al proveedor. | Matriz firmada por entidad y operación; contrato de OC con procedimiento, cabecera/detalle, numeración, acuse, canal EDI/correo y reintento. El archivo SAP es una evaluación posterior, no un cambio inmediato de origen. |
+| S34, precios de compra, 27/10 | Lista base y reglas comerciales pueden tener vigencias distintas. El precio específico de sucursal precede al general; los grupos ayudan a cargar, pero el resultado se decide por artículo/sucursal. El costo estadístico continúa en SGM durante la transición. | Casos con zonas, artículos omitidos, cambios masivos, regla por volumen y descuentos en cascada/aditivos. Negocio e Impuestos deben aprobar fórmula y base de impuesto interno/IVA; la minuta no las cierra. |
+| S35, Javier Vilela, 26/10 | Pide demostraciones desde un producto y el circuito simple; las listas importadas quedan para revisión; descuentos complejos se muestran después. Propone gobierno de habilitación de artículos y límites de sobrestock. | Confirmar en G0 su facultad como sponsor del proyecto frente al sponsor operativo propuesto Pablo Bertolissio. Definir aprobador de altas/habilitaciones y separar estos pedidos de la aceptación del primer paralelo. |
+| S36, Valkimia técnica, 28/10 según nombre/encabezado externo | Valkimia evalúa versión actual, tablas intermedias y migración a Web. Prefiere elevar Web a evaluación interna; **no aprobó alternativa, plazo ni costo**. Excel/carga manual no quedó validado para el volumen DIARCO. | Decidir si M09 entra en la primera oleada; exigir contrato para preparado, despachado y no preparado, movimientos en SGM, remito, redespacho y cambio de destino. No tratar el horizonte verbal de tres meses como compromiso. |
+
+La minuta S36 tiene una discrepancia de fecha: el archivo y su título señalan 28/10, mientras el encabezado de la transcripción consigna 26/10. Se mantiene **28/10 como fecha del documento** y se pide confirmar la fecha de la conversación; esto no cambia el carácter pendiente de sus decisiones.
+
+**Consecuencia para el 04/11:** concentrar el primer paralelo en los circuitos con datos, responsables e interfaz demostrados. La disponibilidad de Connexa no acredita que M09 pueda operar contra Valkimia; M09 conserva su condición de frente B1 planificado, pero su inclusión en la oleada requiere decisión y prueba del circuito completo. SGM mantiene stock, pendientes y operación de recepción donde aún corresponda.
 
 ## Qué se incorpora al plan
 
@@ -90,5 +105,9 @@ Ni esta nómina ni la hoja Asignaciones constituyen aceptación de responsabilid
 - **S28:** [Clusters y segmentos](https://drive.google.com/file/d/1aeoaYyiU3w15atsmD3zDT3W_ZMS2pfr0/view), 20/10/2026. Liliana D’Amico. Seis segmentos son propuesta, modelo definitivo pendiente de simulación de categoría.
 - **S29:** [Contratos Valkimia](https://drive.google.com/file/d/1Q5bV7YBnVGcCHOKnk8j_ZhWpfEJHOINn/view), 20/10/2026. Gustavo Palacios y Fernando de Pedro. Excel sigue en evaluación. No asumir disponible.
 - **S30:** [Conciliación de facturas](https://drive.google.com/file/d/1T297puOriKOsheglNGY-Sxj4W4aJKlM9/view), 20/10/2026. Walter Sosa y Guillermo Alvez. Triple control OC/recepción/factura corresponde a Bloque 2.
+- **S33:** [Interfaces SGM–Connexa](https://drive.google.com/file/d/1vVapFccN6Q5JwaczS9HzvOg-vHYfSFK0/view), 27/10/2026. Hernán López con Zeetrex. Un escritor por dominio; OC completa hacia SGM. Procedimientos, archivo SAP y fórmulas fiscales pendientes.
+- **S34:** [Precios de compra](https://drive.google.com/file/d/1Kv7_vKDIryvGvhjrAVbCJxt941vG64a_/view), 27/10/2026. Sebastián Basconcelos con Zeetrex. Vigencias, listas y reglas separadas; impuestos internos, costo estadístico y casos de importación pendientes de validación.
+- **S35:** [Javier Vilela, plan y surtido](https://drive.google.com/file/d/1GT2yxSq5Q0ke2VfPFcdCfeNNIlH541dQ/view) y [transcripción original «Revisión Plan de Proyecto y Clusters y Surtido»](https://drive.google.com/file/d/18XnLGtnxrzEdNg3MWw66tdf-cyWvKZih/view), misma reunión del 26/10/2026. Sponsor nombrado en la minuta; facultad del proyecto a conciliar con Gobierno. Demostración simple, permisos de artículo y sobrestock por definir.
+- **S36:** [Valkimia técnica](https://drive.google.com/file/d/1vJf2eMuDx_mCE9q9ae8kTVQFCrJ4NVgn/view), 28/10/2026 según nombre del archivo. Preferencia por evaluar Valkimia Web, sin aprobación ni cronograma. Fecha del encabezado de transcripción discrepante.
 
 El informe del 23/10 utiliza enlaces internos de biblioteca. Este kit cita los documentos accesibles de Drive en lugar de reproducir esos enlaces. Se preservaron los documentos fuente y no se cambió su estado de aprobación.

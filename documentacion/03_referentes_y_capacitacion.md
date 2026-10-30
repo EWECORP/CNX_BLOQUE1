@@ -1,6 +1,6 @@
 # Referentes, aprendizaje y guías por módulo
 
-Versión 0.4 propuesta, actualizada el 30/10 según la hoja **Asignaciones** editada por el usuario y las nuevas filas transversales de **Formacion**. Marco B1: Estrategia de IMPLEMENTACION y actualización del usuario al 04/11. Los interlocutores son contactos para convocar; los campos de titular, suplente, dueño nominal, horas y aceptación siguen pendientes.
+Versión 0.5 propuesta, actualizada el 30/10 según **Asignaciones**, **Formacion** y las minutas S33–S36. Marco B1: Estrategia de IMPLEMENTACION y actualización del usuario al 04/11. Los interlocutores son contactos para convocar; los campos de titular, suplente, dueño nominal, horas y aceptación siguen pendientes.
 
 ## Acuerdo común del referente
 
@@ -31,6 +31,8 @@ T03 ficha de capacidad, T05 guía de tareas verificadas con capturas de la versi
 ## M01 · Catálogo y maestros
 
 **Resultado:** Sostener artículos, EAN, proveedor y sucursal con datos consistentes y maestría acordada.
+
+**Ampliación S35:** distinguir el alta de un artículo nuevo para la empresa de la habilitación de uno existente en otra sucursal. Para cada caso, definir solicitante, aprobador, permisos y réplica a SGM; la participación de un comité se discutió, pero no constituye una decisión aprobada. En la demostración, partir de un producto concreto y mostrar su vínculo con segmentos y sucursales antes de recorrer configuraciones adicionales.
 
 **Dueño propuesto por función:** Dueño de Datos Maestros. **RF por función:** Referente Catálogo. **Interlocutor de antecedentes:** Guillermo Alvez (Auditoría); designar Administración de Datos Maestros. Confirmar persona, suplente, jefatura y horas. **Audiencia:** Administradores de catálogo y responsables comerciales.
 
@@ -64,11 +66,13 @@ Muestra con identidad y campos críticos conciliados. Cambios autorizados audita
 
 Síntomas a incluir en FAQ: EAN duplicado; unidad incorrecta; vínculo proveedor ausente; cambio sin replicar. Consultar permisos, versión, corte de datos y documento/estado. Guardar evidencia y aplicar sólo el procedimiento conocido. Si el estado o resultado es incierto, detener el reintento y escalar a IT/L2 desde la mesa.
 
-**Fuentes:** S04; S05; S06; S10; S15; S16; S22. **WBS:** 3.01.01 a 3.01.08, más actividades transversales aplicables.
+**Fuentes:** S04; S05; S06; S10; S15; S16; S22; S35. **WBS:** 3.01.01 a 3.01.08, más actividades transversales aplicables.
 
 ## M02 · Surtido, clusters y segmentos
 
 **Resultado:** Aplicar elegibilidad y reglas de surtido por artículo y sucursal de forma explicable.
+
+**Ampliación S35:** usar un artículo y sus sucursales como hilo de la demostración. Mostrar el circuito básico de habilitación, exclusión y revisión antes de reglas de descuento o configuración avanzada. Comercial debe acordar quién solicita y quién autoriza la habilitación por sucursal, con criterios verificables; esos permisos no quedaron cerrados en la reunión.
 
 **Dueño propuesto por función:** Dueño de Surtido. **RF por función:** Referente Surtido. **Interlocutor de antecedentes:** Liliana D'Amico (sugerida por antecedentes). Confirmar persona, suplente, jefatura y horas. **Audiencia:** Comercial, surtido y responsables de sucursales.
 
@@ -102,7 +106,7 @@ Los pares habilitados y excluidos producen exactamente el efecto acordado en cad
 
 Síntomas a incluir en FAQ: Sucursal mal agrupada; regla vencida; artículo habilitado en un circuito y excluido en otro. Consultar permisos, versión, corte de datos y documento/estado. Guardar evidencia y aplicar sólo el procedimiento conocido. Si el estado o resultado es incierto, detener el reintento y escalar a IT/L2 desde la mesa.
 
-**Fuentes:** S04; S05; S06; S10; S15; S16; S28. **WBS:** 3.02.01 a 3.02.08, más actividades transversales aplicables.
+**Fuentes:** S04; S05; S06; S10; S15; S16; S28; S35. **WBS:** 3.02.01 a 3.02.08, más actividades transversales aplicables.
 
 ## M03 · Listas y acuerdos comerciales de compra
 
@@ -123,6 +127,8 @@ Síntomas a incluir en FAQ: Sucursal mal agrupada; regla vencida; artículo habi
 
 Precio lista, neto OC y neto estadístico. Descuentos y reglas dentro/fuera de OC. Orden de aplicación y vigencia.
 
+**Ampliación S34:** distinguir lista base de reglas comerciales con vigencia propia; identificar origen proveedor o carga interna; aplicar precio específico de sucursal antes del general. Preparar un caso de artículo ausente en la nueva lista, uno con modificación masiva que no borre descuentos inadvertidamente y otro con regla por volumen sobre sólo los artículos elegibles. El impuesto interno y su base con IVA siguen sin fórmula aprobada: usar ejemplos reales y esperado firmado por Compras/Impuestos antes de aceptar la OC. El costo estadístico continúa en SGM durante la transición; su actualización futura no se acredita por la demo de listas.
+
 ### Qué responsabilidad debe asumir
 
 Veracidad de condiciones comerciales, autorización de versiones y conciliación de resultados.
@@ -135,12 +141,14 @@ Casos dorados reproducibles con impuestos y redondeos aprobados por las áreas c
 |---|---|---|---|
 | Lista por proveedor y sucursal | Lista general y específica vigente con valores esperados aprobados | Importar y resolver el precio para dos sitios | Se elige la lista correspondiente. Neto OC y estadístico se explican por componentes y versión. |
 | Importación inválida | Archivo con artículo inexistente y descuento mal formado | Importar y corregir el archivo | Se identifican las filas rechazadas. No se publica una versión parcial sin el tratamiento explícitamente aprobado. |
+| Precio por sucursal y vigencias distintas | Precio general y específico; regla comercial que sobrevive a una versión de lista | Simular dos sucursales antes/después del cambio de lista | La elección por artículo/sucursal y la vigencia de la regla se explican sin duplicar descuentos. |
+| Impuesto interno y descuento por volumen | Lista real con impuesto incluido o separado y familia elegible | Calcular línea, neto OC e impuestos con secuencia acordada | El esperado aprobado por Compras/Impuestos coincide por línea; artículos ajenos no completan el volumen. |
 
 ### Problemas frecuentes y respuesta inicial
 
 Síntomas a incluir en FAQ: Lista sin vigencia; descuento duplicado; confusión de netos; grupo de compra confundido con cluster. Consultar permisos, versión, corte de datos y documento/estado. Guardar evidencia y aplicar sólo el procedimiento conocido. Si el estado o resultado es incierto, detener el reintento y escalar a IT/L2 desde la mesa.
 
-**Fuentes:** S04; S05; S06; S10; S25. **WBS:** 3.03.01 a 3.03.08, más actividades transversales aplicables.
+**Fuentes:** S04; S05; S06; S10; S25; S33; S34; S35. **WBS:** 3.03.01 a 3.03.08, más actividades transversales aplicables.
 
 ## M04 · Forecast y compra inteligente/directa
 
@@ -199,6 +207,8 @@ Síntomas a incluir en FAQ: Stock desactualizado; parámetro ausente; sugerido i
 
 Estados de OC, precio/impuestos, permisos, acuse técnico y funcional, reintento y contingencia.
 
+**Ampliación S33–S34:** la orden debe llegar a SGM **completa y ya autorizada**, con condiciones comerciales, fecha de factura, vencimiento y última fecha de recepción según lo acordado. Confirmar el procedimiento de incorporación, cabecera/detalle, numeración, canal al proveedor y acuse antes del paralelo. El comprador completa condiciones de pago y fechas antes de enviar a aprobación; una OC rechazada vuelve con observación y conserva el trabajo para corregirla. La segunda autorización en SGM y la precarga anterior no forman parte del modelo objetivo conversado, pero el cambio técnico aún requiere validación.
+
 ### Qué responsabilidad debe asumir
 
 Aceptación comercial de la OC, autorización del circuito y control de pendientes no conciliados.
@@ -212,12 +222,13 @@ Cada OC piloto tiene identificación cruzada, valores conciliados y resultado co
 | OC aprobada a SGM | Comprador/aprobador distintos y OC con cálculo esperado | Generar, aprobar, transmitir y conciliar | Cabecera y líneas coinciden con la versión aprobada. Identificadores vinculados y acuse funcional registrado. SGM no exige una segunda autorización de la OC ya aprobada en Connexa. |
 | Reintento de integración | OC ya transmitida con acuse perdido en entorno de prueba | Repetir por procedimiento autorizado y consultar destino | Se recupera el estado de una única OC. No hay doble documento ni doble comunicación al proveedor. |
 | OC madre e hija por recepción PDA | Madre aprobada, cantidades y reglas de vigencia/saldo definidas | Recibir parcialmente por PDA, generar hija, consultar saldo e intentar excederlo | Hija vinculada a madre con cantidades realmente recibidas. Saldo actualizado una vez. Exceso rechazado conforme a la regla acordada. |
+| OC rechazada y corregida | Comprador y gerente distintos, condiciones de pago y fechas completas | Rechazar con motivo, corregir y reenviar; incorporar en SGM sólo tras aprobación | Se conserva el trabajo y la trazabilidad. SGM recibe una única OC autorizada con cabecera/detalle y condiciones aprobadas. |
 
 ### Problemas frecuentes y respuesta inicial
 
 Síntomas a incluir en FAQ: OC duplicada; aprobación omitida; sin identificador SGM; envío repetido al proveedor. Consultar permisos, versión, corte de datos y documento/estado. Guardar evidencia y aplicar sólo el procedimiento conocido. Si el estado o resultado es incierto, detener el reintento y escalar a IT/L2 desde la mesa.
 
-**Fuentes:** S04; S05; S06; S10; S15; S16; S20; S21; S23. **WBS:** 3.05.01 a 3.05.08, más actividades transversales aplicables.
+**Fuentes:** S04; S05; S06; S10; S15; S16; S20; S21; S23; S33; S34. **WBS:** 3.05.01 a 3.05.08, más actividades transversales aplicables.
 
 ## M06 · Recepción en sucursal y convivencia SGM
 
@@ -335,14 +346,14 @@ Síntomas a incluir en FAQ: Par sin política activa; necesidad dirigida bloquea
 
 ## M09 · Transferencias y distribución con Valkimia
 
-**Resultado:** Gestionar transferencias desde Connexa y validar el intercambio mínimo viable con Valkimia y SGM.
+**Resultado:** Gestionar transferencias desde Connexa sólo cuando esté validado el circuito completo con Valkimia y SGM. La inclusión de M09 en la primera oleada depende de una decisión de arquitectura y de pruebas; Valkimia Web es una propuesta, no un destino aprobado.
 
 **Dueño propuesto por función:** Dueño de Distribución. **RF por función:** Referente Transferencias. **Interlocutor de antecedentes:** Christian Rojas / Gastón (Logística), enlace Comercial a designar. Confirmar persona, suplente, jefatura y horas. **Audiencia:** Compradores, logística y responsables de CD/Valkimia.
 
 ### Qué debe hacer
 
 1. Validar con negocio transferencias, acopios, campañas y límites de cada circuito.
-2. Acordar con Valkimia/CD interfaz o alternativa Excel, responsables y acuses.
+2. Acordar con Valkimia/CD y SGM la arquitectura, responsables, remito y acuses. La opción Excel/carga manual no está validada para operación masiva DIARCO.
 3. Ejecutar una transferencia de extremo a extremo con identificadores y cantidades conciliados.
 4. Probar retorno parcial, excepción y recuperación sin duplicar movimientos.
 5. Registrar resultados, defectos y repruebas con IDs y evidencia.
@@ -351,6 +362,8 @@ Síntomas a incluir en FAQ: Par sin política activa; necesidad dirigida bloquea
 ### Qué debe aprender y saber explicar
 
 Necesidad, transferencia, viaje y movimiento son objetos distintos. Exportación/importación, acuse y estado oficial durante convivencia.
+
+**Ampliación S35–S36:** diferenciar productos obligatorios y opcionales para completar camiones; validar días máximos de sobrestock por artículo/sucursal, incluido cero para impedir el completamiento, y no tomar stock necesario para otras sucursales. Los porcentajes de ocupación mencionados son ejemplos, no umbrales aprobados. Valkimia debe devolver **despachado, preparado sin despachar y no preparado**; probar redespacho, reasignación de destino y etiquetas. SGM debe registrar movimientos aunque no origine el pedido, y conservar remito, numeración, pendientes e historial de kilos/bultos. Ninguna de las tres alternativas técnicas debatidas quedó aprobada.
 
 ### Qué responsabilidad debe asumir
 
@@ -362,14 +375,15 @@ El intercambio elegido está validado por Valkimia/CD. Cantidades y documentos c
 
 | Caso inicial | Preparación | Ejecución | Resultado observable esperado |
 |---|---|---|---|
-| Transferencia a Valkimia/SGM | Contrato mínimo o formato Excel validado por las contrapartes | Generar, exportar/transmitir, confirmar y conciliar | Identificadores, cantidades y estados coherentes. Evidencia de aceptación de destino. |
+| Transferencia a Valkimia/SGM | Arquitectura y contrato aprobados por DIARCO, Valkimia y SGM; no presumir Excel | Generar, transmitir, confirmar despacho y conciliar remito/stock | Identificadores, cantidades, pendientes y estados coherentes en los tres sistemas. Evidencia de aceptación de destino. |
 | Retorno parcial y reintento | Documento de prueba con despacho parcial y esperado acordado | Recibir retorno, consultar saldo y repetir por procedimiento | Saldo y pendiente coinciden. No se duplica movimiento ni se presume redespacho sin contrato. |
+| Preparado sin despachar y cambio de destino | Pallet identificado, remito/etiqueta y destino original | Cerrar día, replanificar o reasignar bajo regla acordada | Se conserva historia, etiqueta y destino trazables; no se vuelve a preparar el mismo pallet. |
 
 ### Problemas frecuentes y respuesta inicial
 
 Síntomas a incluir en FAQ: Archivo rechazado; viaje sin confirmación; cantidad parcialmente despachada; transferencia duplicada. Consultar permisos, versión, corte de datos y documento/estado. Guardar evidencia y aplicar sólo el procedimiento conocido. Si el estado o resultado es incierto, detener el reintento y escalar a IT/L2 desde la mesa.
 
-**Fuentes:** S10; S06; S07; S15; S16; S24; S29. **WBS:** 3.09.01 a 3.09.08, más actividades transversales aplicables.
+**Fuentes:** S10; S06; S07; S15; S16; S24; S29; S33; S35; S36. **WBS:** 3.09.01 a 3.09.08, más actividades transversales aplicables.
 
 ## M10 · Stock, conciliación y observabilidad
 

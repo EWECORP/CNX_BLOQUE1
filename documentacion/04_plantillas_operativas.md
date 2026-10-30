@@ -1,6 +1,6 @@
 # Plantillas operativas
 
-Versión 0.3 propuesta, actualizada el 30/10. Completar las fichas en el repositorio acordado y enlazarlas desde el libro. Una plantilla vacía no representa una aprobación.
+Versión 0.5 propuesta, actualizada el 30/10 con las minutas S33–S36. Completar las fichas en el repositorio acordado y enlazarlas desde el libro. Una plantilla vacía no representa una aprobación.
 
 ## T01 · Acta de compromiso de Dirección
 
@@ -9,6 +9,7 @@ Versión 0.3 propuesta, actualizada el 30/10. Completar las fichas en el reposit
 | Decisión | Nombre / definición | Fecha de vigencia | Evidencia de aceptación |
 |---|---|---|---|
 | Sponsor y suplente | [completar] | [completar] | [completar] |
+| Patrocinio Javier Vilela / Pablo Bertolissio | [facultades de cada uno y escalación] | [completar] | [completar] |
 | Líder implementación DIARCO | [completar] | [completar] | [completar] |
 | Líder Zeetrex | [completar] | [completar] | [completar] |
 | Gestión del Cambio Zeetrex | [nombre, agenda y alcance] | [completar] | [completar] |
@@ -19,6 +20,7 @@ Versión 0.3 propuesta, actualizada el 30/10. Completar las fichas en el reposit
 | Horas y redistribución de tareas | [enlace a compromiso de jefaturas] | [completar] | [completar] |
 | IT y mesa de ayuda | [nombres y cobertura] | [completar] | [completar] |
 | Piloto y gates | [población y criterios] | [completar] | [completar] |
+| M09 en primera oleada | [incluido/excluido, arquitectura Valkimia y condición] | [completar] | [completar] |
 | Próxima revisión y escalación | [instancia y plazo] | [completar] | [completar] |
 
 **Reservas / decisiones abiertas:** ID, acción, dueño, fecha y consecuencia si vence. **Decisión G0:** iniciar capacidades [lista] / mantener pendientes [lista]. **Acepta SP:** nombre, fecha y registro. **Aceptan líderes:** nombres y registro.
@@ -119,6 +121,18 @@ Retrospectiva: qué ocurrió, causa, impacto, qué repetir, qué cambiar, artefa
 
 ## T14 · Matriz de maestría y convivencia
 
-Etapa; entidad/operación; sistema que autoriza; escritor único; lectores; identificación cruzada; interfaz; frecuencia/latencia acordada; conciliación; responsable de dato; responsable técnico; procedimiento ante falla; emisor al proveedor; condición para cambiar la autoridad; gate y evidencia.
+Etapa; entidad/operación; sistema que autoriza; escritor único; lectores; fecha/alcance del traspaso; tablas y dependencias SGM; identificación cruzada; procedimiento/contrato; interfaz; frecuencia/latencia acordada; conciliación; responsable de dato; responsable técnico; procedimiento ante falla; emisor/canal al proveedor; condición para cambiar la autoridad; gate y evidencia.
 
 Ejemplo de fila a completar, sin anticipar la decisión: OC aprobada / generación y comunicación al proveedor / sistema autorizado [pendiente] / emisor único [pendiente] / identificación Connexa–SGM [contrato y prueba].
+
+## T15 · Decisión de integración Valkimia y primera oleada
+
+**Alcance:** [transferencias/sitios/CD/Base 2/La Gioconda]. **Reunión y fuente:** [S36 y validación posterior]. **Responsable que decide:** [nombre y facultad]. **Fecha:** [completar].
+
+| Alternativa | Prueba de viabilidad | Efecto en SGM y en operación | Esfuerzo/plazo validado | Decisión |
+|---|---|---|---|---|
+| Adecuar Valkimia actual | [servicios y personalizaciones por probar] | [pedidos, remitos, stock, cierres] | [completar] | [completar] |
+| Tablas intermedias | [contrato y adaptación SGM] | [pedidos, remitos, stock, cierres] | [completar] | [completar] |
+| Valkimia Web | [alcance técnico y operativo] | [pedidos, remitos, stock, cierres] | [completar] | [completar] |
+
+**Excel/carga manual:** [evidencia de disponibilidad y capacidad para volumen DIARCO o descartada]. **Estados de retorno obligatorios:** despachado; preparado sin despachar; no preparado. **Excepciones:** redespacho, cambio de destino/pallet/etiqueta, reintento. **Primera oleada:** [M09 incluido sólo con contrato y prueba / diferido]. **Pendientes:** [dueño y fecha].

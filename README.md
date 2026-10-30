@@ -1,6 +1,6 @@
 # DIARCO · Implementación Bloque 1
 
-Versión 0.4 del kit, actualizada el 30/10/2026 para la reunión del lunes **02/11/2026**. El libro v0.2 conserva las ediciones originales del usuario y v0.4 incorpora la RACI y las tareas nuevas. Confidencial: DIARCO / Zeetrex.
+Versión 0.5 de la documentación, actualizada el 30/10/2026 para la reunión del lunes **02/11/2026**. El libro v0.2 conserva las ediciones originales del usuario y v0.4 incorpora la RACI y las tareas nuevas. Confidencial: DIARCO / Zeetrex.
 
 El objetivo es acordar un equipo DIARCO que implemente y luego sostenga cada proceso. La asignación debe incluir nombre, autoridad, tiempo protegido, suplente y resultados verificables.
 
@@ -36,5 +36,7 @@ El plan incorpora IMPLEMENTACION/REUNIONES y el informe del 23/10. El detalle es
 **Actualización del 30/10:** la hoja Gobierno del libro contiene siete registros, con Guillermo Añaños para el enlace de Dirección con IT DIARCO, Eduardo Ettlin para el liderazgo Zeetrex, Pablo Duplessy para Gestión del Cambio y Alejandro Ledesma / Eduardo Ettlin para la función técnica L2. La hoja Asignaciones amplía interlocutores en compras, OC, inventarios, PDD y stock. Las guías y la propuesta ejecutiva reflejan esa nómina. Las funciones siguen como propuestas; los campos de aceptación y horas continúan vacíos.
 
 La revisión v0.4 agrega **CIO** y **CMZ** a la matriz RACI, cuatro tareas WBS, preparación de los tres perfiles transversales, una decisión y dos riesgos. Las tareas nuevas están al final de WBS para conservar las filas originales; filtrar por ID y predecesoras al planificar. Gobierno y Asignaciones mantienen los valores editados por el usuario.
+
+**Revisión documental v0.5:** cuatro minutas del 26–28/10 precisan la convivencia con SGM, las pruebas de listas/OC y la decisión pendiente de Valkimia. La reunión con Javier Vilela se contrastó con su transcripción original. [Síntesis y fuentes](documentacion/06_minutas_y_preparacion_paralelo.md). El libro v0.4 y la presentación v0.4 son la base operativa anterior a esta revisión: registrar las nuevas decisiones técnicas y de alcance en sus solapas antes de tratar una oleada como aprobada.
 
 Repositorio compartido del equipo: [IMPLEMENTACION](https://drive.google.com/drive/folders/16nz4aDlr91-vfIEMitnNC3J1JvD3MVd2). Los entregables de este kit se guardaron localmente; no se subieron ni reemplazaron documentos de Drive.

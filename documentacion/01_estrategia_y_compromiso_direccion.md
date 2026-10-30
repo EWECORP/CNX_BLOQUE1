@@ -1,6 +1,6 @@
 # Propuesta de implementación del Bloque 1 · DIARCO
 
-Versión 0.4. Estado: propuesta a revisar. Actualización: 30/10/2026. Presentación prevista: lunes 02/11/2026. Propietario propuesto: líder de implementación Zeetrex.
+Versión 0.5. Estado: propuesta a revisar. Actualización: 30/10/2026 con minutas S33–S36. Presentación prevista: lunes 02/11/2026. Propietario propuesto: líder de implementación Zeetrex.
 
 ## Decisión central
 
@@ -42,14 +42,16 @@ El otro `PLAN DE DESPLIEGUE.md` contiene un corte total al 07/11 incompatible co
 | M06 Recepción | PDA/WEB, diferencias, pendientes e impacto en SGM | Definir latencia y despliegue de sucursales |
 | M07 Inventarios | Conteo, recuento, autorización y ajuste definitivo en SGM | Definir población, corte y auditoría |
 | M08 PDD | Necesidades, prioridades y backlog según contrato vigente | Certificar parámetros y contrato de consumo |
-| M09 Transferencias/distribución | Planificación Connexa e intercambio con Valkimia/SGM | Validar interfaz mínima o Excel con proveedor y CD |
+| M09 Transferencias/distribución | Planificación Connexa e intercambio con Valkimia/SGM | Elegir arquitectura y oleada: Web sólo propuesta; Excel/carga manual no validados para escala DIARCO. Probar retorno y movimientos SGM antes de habilitar |
 | M10 Stock y observabilidad | Conciliación, monitoreo y atención de fallas | Stock oficial SGM y controles por interfaz |
 
 Los diez frentes organizan el trabajo de B1 de la Estrategia seleccionada. No equivalen a diez módulos ya aceptados o listos. Se decide por oleada qué capacidades y población se habilitan. Los GAPS de octubre se concilian contra esa baseline sin incorporarlos automáticamente.
 
 Cada GAP debe tener capacidad, problema observable, clasificación B1/B2/B3/pendiente, razón, dueño de decisión, impacto y criterio de aceptación. Un pedido puede ser valioso y quedar diferido. Un defecto que impide un caso comprometido debe bloquear ese caso hasta resolverlo o cambiar explícitamente el alcance.
 
-**Decisiones especialmente abiertas:** aprobación automática de compras, comportamiento de OC madre al cambiar la lista, saldo de madres/hijas, retorno de redespachos Valkimia, funcionalidades de transporte, precio de venta y costos avanzados. Las minutas posteriores documentan la validación de OC madre/PDA en B1 y el precio de venta en SGM durante B1. El resto de los pedidos no ingresa automáticamente por aparecer en una demo.
+**Decisiones especialmente abiertas:** aprobación automática de compras, comportamiento de OC madre al cambiar la lista, saldo de madres/hijas, retorno de redespachos Valkimia, funcionalidades de transporte, precio de venta y costos avanzados. Las minutas posteriores documentan una demostración de OC madre/PDA y sitúan el precio de venta en SGM durante B1; aún falta aceptación del circuito completo. El resto de los pedidos no ingresa automáticamente por aparecer en una demo.
+
+Las minutas del 26–28/10 agregan decisiones para el lunes: acordar **un escritor por dominio y fecha de traspaso**, validar la OC completa que Connexa transmitirá a SGM, aprobar el esperado de impuestos/descuentos y decidir si M09 puede integrar la primera oleada. Valkimia plantea evaluar una migración a Web con horizonte verbal cercano a tres meses, sin aprobación ni cronograma. Una importación Excel masiva no quedó demostrada como contingencia. El 04/11 sigue siendo objetivo de smoke y paralelo de los módulos preparados, no fecha de activación forzada de M09.
 
 ## Equipo y capacidad
 
@@ -66,6 +68,8 @@ La hoja **Gobierno** del plan, actualizada por el usuario el 30/10, es la refere
 | Alejandro Ledesma / Eduardo Ettlin | Desarrollo Zeetrex | Autoridad técnica y coordinación L2 (ZT); definir titular y respaldo para cada circuito |
 
 Faltan los nombres del líder operativo DIARCO, los dueños, los referentes y suplentes de módulos, el responsable operativo de IT y la mesa de ayuda. La presencia de Guillermo Añaños en Gobierno no cubre por sí sola el puesto IT de ejecución ni confirma horas disponibles. Los interlocutores de la hoja Asignaciones sirven para convocar y elegir responsables; sus campos de titular, suplente y aceptación siguen sin completar. Guillermo Añaños y Guillermo Alvez son personas distintas y aparecen en frentes diferentes.
+
+La minuta S35 presenta a **Javier Vilela** como sponsor del proyecto. La hoja Gobierno propone a **Pablo Bertolissio** como sponsor operativo. El acta del lunes debe precisar si son patrocinios complementarios, sus facultades y la vía de escalación; esta propuesta no reemplaza ninguno de los dos por inferencia.
 
 | Rol | Resultado del compromiso | Dedicación semanal inicial propuesta |
 |---|---|---:|
@@ -145,6 +149,7 @@ Cada diferencia conserva valor Connexa, valor DIARCO/SGM, esperado independiente
 4. Incorporar a IT y mesa de ayuda desde la preparación.
 5. Aprobar piloto y gates, y la resolución de bloqueos dentro del plazo acordado.
 6. Comunicar internamente que la implementación forma parte del trabajo asignado.
+7. Resolver el patrocinio de Javier Vilela y Pablo Bertolissio, y la inclusión o postergación de M09 en la primera oleada según la alternativa Valkimia realmente aprobada.
 
 La comunicación interna la emite el sponsor después de aprobar el acta. Este kit incluye un texto sugerido; no se envió ningún mensaje ni convocatoria.
 
@@ -169,13 +174,13 @@ El tablero semanal mostrará módulos con equipo confirmado, casos críticos apr
 - **Catálogo y maestros:** Guillermo Alvez (Auditoría); designar Administración de Datos Maestros.
 - **Surtido, clusters y segmentos:** Liliana D'Amico (sugerida por antecedentes).
 - **Listas y acuerdos comerciales de compra:** Sebastián Basconcelos (según minuta 13/10; confirmar designación).
-- **Forecast y compra inteligente/directa:** Romina Garfi (sugerida por antecedentes).
-- **Órdenes de compra e integración SGM:** Romina Garfi (sugerida por antecedentes).
+- **Forecast y compra inteligente/directa:** Romina Garfi, Carolina Tavernisse, Camila Klipauka, Marcelo Cingolani, Diego Baldi y Paloma Romero, según Asignaciones; definir cobertura por categoría/formato.
+- **Órdenes de compra e integración SGM:** los mismos seis interlocutores de Compras; elegir dueño del esperado de valorización y responsables de cada prueba.
 - **Recepción en sucursal y convivencia SGM:** Fernando Ureña / Cecilia Camus / Javier Dafonte / Rodolfo Herlein (elegir titular).
-- **Inventarios y ajustes:** Guillermo Alvez / Auditoría (confirmar titular operativo).
-- **PDD y necesidades de distribución:** Christian Rojas / Compras (separar demanda comercial de ejecución logística).
+- **Inventarios y ajustes:** Guillermo Alvez / Javier Dafonte; separar auditoría de ejecución.
+- **PDD y necesidades de distribución:** Christian Rojas, Liliana D'Amico y Carolina Tavernisse; separar demanda comercial de ejecución logística.
 - **Transferencias y distribución con Valkimia:** Christian Rojas / Gastón (Logística), enlace Comercial a designar.
-- **Stock, conciliación y observabilidad:** IT + Control de Stock (designar personas).
+- **Stock, conciliación y observabilidad:** IT, Control de Stock y Hernán López (líder SGM DIARCO, según Asignaciones); designar responsables operativos.
 
 Son interlocutores documentados, no designaciones aceptadas ni horas autorizadas. Para recepción/ajustes se incorporan cierre efectivo en SGM, remito y numeración; para inventario, foto inicial, movimientos pendientes, mapas/QR y validación PDA. La recuperación del software y la confiabilidad de los saldos se aceptan por separado. Confirmar el resultado de los compromisos 26–27/10 antes de declarar esos circuitos habilitados.
 
