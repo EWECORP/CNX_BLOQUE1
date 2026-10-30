@@ -1,6 +1,6 @@
 # Propuesta de implementación del Bloque 1 · DIARCO
 
-Versión 0.2. Estado: propuesta a revisar. Fecha de preparación: 29/10/2026. Presentación prevista: lunes 02/11/2026. Propietario propuesto: líder de implementación Zeetrex.
+Versión 0.4. Estado: propuesta a revisar. Actualización: 30/10/2026. Presentación prevista: lunes 02/11/2026. Propietario propuesto: líder de implementación Zeetrex.
 
 ## Decisión central
 
@@ -53,17 +53,19 @@ Cada GAP debe tener capacidad, problema observable, clasificación B1/B2/B3/pend
 
 ## Equipo y capacidad
 
-Personas y cargos confirmados por el usuario. Las funciones del proyecto en la última columna son propuestas para acordar el lunes:
+La hoja **Gobierno** del plan, actualizada por el usuario el 30/10, es la referencia para esta nómina. Los cargos y las funciones se transcriben como informados en esa hoja; cada función del proyecto conserva el estado **Propuesta a confirmar** hasta que quede aceptada en el acta.
 
 | Persona | Cargo informado | Función propuesta |
 |---|---|---|
 | Pablo Bertolissio | Gerente General DIARCO | Sponsor operativo DIARCO (SP), asignación interna y gates |
 | Roberto Goldfarb | Owner DIARCO | Patrocinio institucional y escalación estratégica |
 | Daniel Padin | CEO Zeetrex | Sponsor ejecutivo Zeetrex y compromiso de recursos |
-| Luciano Calcagno | POO Zeetrex | Líder de implementación Zeetrex (LZ) |
-| Eduardo Ettlin | CTO Zeetrex | Autoridad técnica y coordinación L2 (ZT) |
+| Guillermo Añaños | CIO DIARCO, según Gobierno; equipo de Dirección provisto por Zeetrex | Disponer la participación de IT DIARCO; acordar autoridad, dedicación y relación operativa con el líder IT DIARCO |
+| Eduardo Ettlin | CTSO Zeetrex | Líder de implementación Zeetrex (LZ) |
+| Pablo Duplessy | Change Management Zeetrex | Gestión del Cambio Zeetrex (CMZ) |
+| Alejandro Ledesma / Eduardo Ettlin | Desarrollo Zeetrex | Autoridad técnica y coordinación L2 (ZT); definir titular y respaldo para cada circuito |
 
-Faltan los nombres del líder operativo DIARCO, dueños, referentes y suplentes de módulos, IT y mesa de ayuda. La minuta menciona interlocutores históricos, pero no demuestra que aceptaron responsabilidades. No se convierten en asignaciones por inferencia.
+Faltan los nombres del líder operativo DIARCO, los dueños, los referentes y suplentes de módulos, el responsable operativo de IT y la mesa de ayuda. La presencia de Guillermo Añaños en Gobierno no cubre por sí sola el puesto IT de ejecución ni confirma horas disponibles. Los interlocutores de la hoja Asignaciones sirven para convocar y elegir responsables; sus campos de titular, suplente y aceptación siguen sin completar. Guillermo Añaños y Guillermo Alvez son personas distintas y aparecen en frentes diferentes.
 
 | Rol | Resultado del compromiso | Dedicación semanal inicial propuesta |
 |---|---|---:|
@@ -75,6 +77,8 @@ Faltan los nombres del líder operativo DIARCO, dueños, referentes y suplentes 
 | Usuario piloto, por participante | Pruebas y evaluación de operación | 2–4 h |
 | Líder mesa de ayuda DIARCO | Canal, clasificación, base de conocimiento y simulacro | 4–8 h |
 | Líder IT DIARCO | Ambientes, accesos, interfaces y recuperación | 4–8 h |
+| Enlace de Dirección para IT DIARCO (CIO) | Conseguir responsable IT operativo, suplente, horas y cobertura | Acordar; sin rango inferido |
+| Gestión del Cambio Zeetrex (CMZ) | Coordinar formación, práctica y seguimiento de adopción | Acordar; sin rango inferido |
 
 Son rangos de reserva de agenda, no estimaciones calibradas ni SLA. Fuente: diseño de esta propuesta, confianza baja hasta revisar volúmenes. En ventanas de UAT, piloto y corte se planificarán bloques adicionales. Las horas de operación habitual, guardias, desplazamientos y reemplazos no están incluidas.
 

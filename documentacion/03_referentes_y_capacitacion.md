@@ -1,6 +1,6 @@
 # Referentes, aprendizaje y guías por módulo
 
-Versión 0.2 propuesta. Marco B1: Estrategia de IMPLEMENTACION y actualización del usuario al 04/11. Los interlocutores históricos son candidatos a confirmar, no asignaciones aceptadas.
+Versión 0.4 propuesta, actualizada el 30/10 según la hoja **Asignaciones** editada por el usuario y las nuevas filas transversales de **Formacion**. Marco B1: Estrategia de IMPLEMENTACION y actualización del usuario al 04/11. Los interlocutores son contactos para convocar; los campos de titular, suplente, dueño nominal, horas y aceptación siguen pendientes.
 
 ## Acuerdo común del referente
 
@@ -13,14 +13,16 @@ Cada referente debe saber ejecutar la tarea normal, reconocer un resultado incor
 | Audiencia | Aprendizaje | Material | Práctica y aceptación | Responsable |
 |---|---|---|---|---|
 | Dirección y dueños | Alcance, roles, gates, autoridad SGM y decisiones | Presentación y acta T01 | Explicitar facultades, recursos y aceptación | LD/LZ, valida SP |
-| Referente y suplente | Proceso completo, reglas, controles y excepciones | Guía rápida, casos dorados, FAQ y runbook | Demostración individual y una excepción, sin ayuda paso a paso | Forma ZF, valida DP |
-| Usuarios finales por rol | Tareas frecuentes, control final y pedido de ayuda | Guía breve por tarea y ejemplos verificados | Ejecutar todas sus tareas críticas con datos de práctica | Forma RF, valida DP |
+| Referente y suplente | Proceso completo, reglas, controles y excepciones | Guía rápida, casos dorados, FAQ y runbook | Demostración individual y una excepción, sin ayuda paso a paso | ZF forma; CMZ coordina agenda y seguimiento; DP valida |
+| Usuarios finales por rol | Tareas frecuentes, control final y pedido de ayuda | Guía breve por tarea y ejemplos verificados | Ejecutar todas sus tareas críticas con datos de práctica | RF forma; CMZ coordina adopción; DP valida |
 | Mesa de ayuda | Registro, impacto, prioridad, seguimiento y comunicación | Catálogo de servicios, FAQ y ticket T09 | Simulacro de principio a cierre validado por usuario | MD + ZF |
 | IT DIARCO | Accesos, interfaces, monitor, conciliación y recuperación | Matriz de interfaces y runbook técnico | Diagnóstico y recuperación controlada sin duplicar efectos | IT + ZT |
 
 Secuencia: explicación del objetivo y controles; demostración; práctica supervisada; práctica individual; evaluación; devolución; reprueba si hace falta. Duración inicial propuesta por módulo para RF/suplente: dos sesiones de 60–90 minutos más práctica y UAT. Confianza baja hasta revisar dificultad y experiencia. La asistencia no acredita competencia.
 
 Antes del paralelo del 04/11 se completa la formación mínima de los roles participantes. La formación masiva se programa por oleada y requiere que el referente haya demostrado el circuito que enseñará.
+
+Pablo Duplessy figura en Gobierno como CMZ propuesto. Su participación en sesiones, ciclos de prueba y adopción requiere confirmar agenda con el líder Zeetrex. CMZ coordina la preparación y la asistencia; el dueño DIARCO conserva la aceptación funcional y el referente DIARCO demuestra el uso.
 
 ## Paquete mínimo de material por módulo
 
@@ -144,7 +146,7 @@ Síntomas a incluir en FAQ: Lista sin vigencia; descuento duplicado; confusión 
 
 **Resultado:** Generar y revisar propuestas explicables con datos, condiciones y parámetros vigentes.
 
-**Dueño propuesto por función:** Dueño de Abastecimiento. **RF por función:** Referente Abastecimiento. **Interlocutor de antecedentes:** Romina Garfi (sugerida por antecedentes). Confirmar persona, suplente, jefatura y horas. **Audiencia:** Compradores y gerencia de compras.
+**Dueño propuesto por función:** Dueño de Abastecimiento. **RF por función:** Referente Abastecimiento. **Interlocutores de Asignaciones:** Romina Garfi, Carolina Tavernisse (Non-Food), Camila Klipauka (Perfumería), Marcelo Cingolani, Diego Baldi (Perecederos) y Paloma Romero (Barrio). Definir quién decide, quién prueba por categoría/formato, titular, suplente, jefatura y horas. **Audiencia:** Compradores y gerencia de compras.
 
 ### Qué debe hacer
 
@@ -182,7 +184,7 @@ Síntomas a incluir en FAQ: Stock desactualizado; parámetro ausente; sugerido i
 
 **Resultado:** Crear, autorizar y transferir OC con trazabilidad y conciliación entre sistemas.
 
-**Dueño propuesto por función:** Dueño de Compras. **RF por función:** Referente OC. **Interlocutor de antecedentes:** Romina Garfi (sugerida por antecedentes). Confirmar persona, suplente, jefatura y horas. **Audiencia:** Compradores, gerencia, IT e integración SGM.
+**Dueño propuesto por función:** Dueño de Compras. **RF por función:** Referente OC. **Interlocutores de Asignaciones:** Romina Garfi, Carolina Tavernisse (Non-Food), Camila Klipauka (Perfumería), Marcelo Cingolani, Diego Baldi (Perecederos) y Paloma Romero (Barrio). Definir quién aprueba el esperado de valorización, quién prueba por categoría/formato, titular, suplente, jefatura y horas. **Audiencia:** Compradores, gerencia, IT e integración SGM.
 
 ### Qué debe hacer
 
@@ -259,7 +261,7 @@ Síntomas a incluir en FAQ: Pendiente desactualizado; lectura PDA incorrecta; re
 
 **Resultado:** Ejecutar conteos y aprobar diferencias con impacto auditable en el sistema autorizado.
 
-**Dueño propuesto por función:** Dueño de Control de Inventarios. **RF por función:** Referente Inventarios. **Interlocutor de antecedentes:** Guillermo Alvez / Auditoría (confirmar titular operativo). Confirmar persona, suplente, jefatura y horas. **Audiencia:** Conteo, auditoría y responsables de sucursal.
+**Dueño propuesto por función:** Dueño de Control de Inventarios. **RF por función:** Referente Inventarios. **Interlocutores de Asignaciones:** Guillermo Alvez y Javier Dafonte. Separar auditoría de ejecución del conteo; confirmar titular operativo, suplente, jefatura y horas. **Audiencia:** Conteo, auditoría y responsables de sucursal.
 
 ### Qué debe hacer
 
@@ -297,7 +299,7 @@ Síntomas a incluir en FAQ: Foto incorrecta; conteo en unidad distinta; ajuste r
 
 **Resultado:** Calcular necesidades y backlog con cobertura de parámetros y contrato de consumo claros.
 
-**Dueño propuesto por función:** Dueño de Planificación Logística. **RF por función:** Referente PDD. **Interlocutor de antecedentes:** Christian Rojas / Compras (separar demanda comercial de ejecución logística). Confirmar persona, suplente, jefatura y horas. **Audiencia:** Planificación, comercial y enlace Valkimia.
+**Dueño propuesto por función:** Dueño de Planificación Logística. **RF por función:** Referente PDD. **Interlocutores de Asignaciones:** Christian Rojas (Logística), Liliana D'Amico y Carolina Tavernisse (Compras). Separar demanda comercial de planificación y ejecución logística; confirmar titular, suplente, jefatura y horas. **Audiencia:** Planificación, comercial y enlace Valkimia.
 
 ### Qué debe hacer
 
@@ -373,7 +375,7 @@ Síntomas a incluir en FAQ: Archivo rechazado; viaje sin confirmación; cantidad
 
 **Resultado:** Controlar stock y pendientes oficiales de SGM y detectar fallas de las interfaces durante convivencia.
 
-**Dueño propuesto por función:** Dueño de Operación y Control de Stock. **RF por función:** Referente Control Operativo. **Interlocutor de antecedentes:** IT + Control de Stock (designar personas). Confirmar persona, suplente, jefatura y horas. **Audiencia:** IT, mesa de ayuda, control de stock y dueños de proceso.
+**Dueño propuesto por función:** Dueño de Operación y Control de Stock. **RF por función:** Referente Control Operativo. **Interlocutores de Asignaciones:** IT, Control de Stock y Hernán López, identificado allí como líder SGM DIARCO. Definir responsable de conciliación, responsable técnico, titular, suplente, jefatura y horas. **Audiencia:** IT, mesa de ayuda, control de stock y dueños de proceso.
 
 ### Qué debe hacer
 

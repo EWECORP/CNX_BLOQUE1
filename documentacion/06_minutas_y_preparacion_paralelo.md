@@ -1,6 +1,6 @@
 # Minutas recientes y preparación del paralelo desde el 04/11
 
-Versión 0.2. Fecha 29/10/2026. Fuente principal: IMPLEMENTACION, complementada por REUNIONES. La instrucción del usuario sobre convivencia gradual y arranque desde el 04/11 prevalece sobre las fechas anteriores.
+Versión 0.3. Minutas revisadas el 29/10/2026 y nómina actualizada el 30/10/2026 desde el libro editado por el usuario. Fuente principal: IMPLEMENTACION, complementada por REUNIONES. La instrucción del usuario sobre convivencia gradual y arranque desde el 04/11 prevalece sobre las fechas anteriores.
 
 ## Qué se incorpora al plan
 
@@ -63,7 +63,18 @@ El referente DIARCO ejecuta, Zeetrex acompaña y corrige, el dueño decide acept
 | Ingeniería/funcional Zeetrex | Alejandro Ledesma, Matías Ochoa, Stefano Mugetti, Guillermo Añaños, Silvina Sagesse | Contactos documentados. LZ confirma asignación y carga de cada actividad. |
 | Valkimia | Gustavo Palacios, Fernando de Pedro; otros contactos en Pendientes | Confirmar dueño de contrato, devolución técnica y cobertura. |
 
-La nómina no constituye aceptación de responsabilidades ni presume asistencia a futuras reuniones.
+La nómina anterior registra lo encontrado en las minutas. La hoja **Asignaciones**, editada por el usuario el 30/10, amplía los interlocutores para la preparación del 04/11:
+
+| Módulos | Interlocutores agregados o precisados en Asignaciones | Acción de preparación |
+|---|---|---|
+| M04 y M05, abastecimiento y OC | Romina Garfi, Carolina Tavernisse (Non-Food), Camila Klipauka (Perfumería), Marcelo Cingolani, Diego Baldi (Perecederos) y Paloma Romero (Barrio) | Definir dueño de decisión y cobertura de pruebas por categoría/formato; acordar quién aprueba el esperado de la OC valorizada. |
+| M07, inventarios | Guillermo Alvez y Javier Dafonte | Separar control de auditoría y ejecución operativa; nombrar titular y suplente. |
+| M08, PDD | Christian Rojas (Logística), Liliana D'Amico y Carolina Tavernisse (Compras) | Acordar entradas comerciales y responsabilidad logística del cálculo y backlog. |
+| M10, stock y conciliación | IT, Control de Stock y Hernán López (líder SGM DIARCO, según la hoja) | Designar dueño de conciliación y responsable IT de integración; demostrar saldos y movimientos en SGM. |
+
+La hoja **Gobierno** actualizada propone a Guillermo Añaños como enlace de Dirección para IT DIARCO, a Eduardo Ettlin para liderar la implementación Zeetrex, a Pablo Duplessy para Gestión del Cambio y a Alejandro Ledesma / Eduardo Ettlin para la función técnica L2. Guillermo Añaños no es Guillermo Alvez. Estas propuestas no sustituyen la aceptación de funciones, horas y facultades en el acta. La fila histórica de Ingeniería/funcional Zeetrex no asigna automáticamente esos contactos al nuevo gobierno.
+
+Ni esta nómina ni la hoja Asignaciones constituyen aceptación de responsabilidades o presumen asistencia a futuras reuniones.
 
 ## Referencias principales
 

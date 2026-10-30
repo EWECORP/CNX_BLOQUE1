@@ -39,9 +39,15 @@ export const people=[
  ['Pablo Bertolissio','Gerente General DIARCO','Sponsor operativo DIARCO (SP)','Propuesta a confirmar','Prioridad, capacidad interna y gates operativos'],
  ['Roberto Goldfarb','Owner DIARCO','Patrocinio institucional y escalación estratégica','Propuesta a confirmar','Respaldo de transformación y conflictos de prioridad de compañía'],
  ['Daniel Padin','CEO Zeetrex','Sponsor ejecutivo Zeetrex','Propuesta a confirmar','Compromiso de entrega, recursos y escalación de Zeetrex'],
- ['Luciano Calcagno','POO Zeetrex','Líder implementación Zeetrex (LZ)','Propuesta a confirmar','Plan integrado y coordinación de ejecución'],
- ['Eduardo Ettlin','CTO Zeetrex','Autoridad técnica y coordinación L2 (ZT)','Propuesta a confirmar','Arquitectura, integraciones y decisiones técnicas']
+ ['Guillermo Añaños','CIO DIARCO','Enlace de Dirección para IT DIARCO','Propuesta a confirmar','Disponibilizar recursos IT DIARCO'],
+ ['Eduardo Ettlin','CTSO Zeetrex','Líder implementación Zeetrex (LZ)','Propuesta a confirmar','Plan integrado y coordinación de ejecución'],
+ ['Pablo Duplessy','Change Management Zeetrex','Gestión del Cambio Zeetrex (CMZ)','Propuesta a confirmar','Capacitación, entrenamiento, ciclos de prueba y adopción'],
+ ['Alejandro Ledesma / Eduardo Ettlin','Desarrollo Zeetrex','Autoridad técnica y coordinación L2 (ZT)','Propuesta a confirmar','Arquitectura, integraciones y decisiones técnicas']
 ];
+sources.push(
+ ['S31','Gobierno del plan editado por el usuario','30/10/2026','Siete perfiles; funciones propuestas, pendientes de aceptación.','CNX_BLOQUE1/outputs/20261029/DIARCO_Bloque1_Plan_v0.2.xlsx, Gobierno!A5:E12'],
+ ['S32','Asignaciones del plan editadas por el usuario','30/10/2026','Interlocutores ampliados por módulo; titulares, suplentes y horas aún vacíos.','CNX_BLOQUE1/outputs/20261029/DIARCO_Bloque1_Plan_v0.2.xlsx, Asignaciones!A5:Q15']
+);
 
 // No people are assigned by inference from names in meeting transcripts.
 export const modules = [
@@ -330,6 +336,11 @@ nominees.M06='Fernando Ureña / Cecilia Camus / Javier Dafonte / Rodolfo Herlein
 nominees.M07='Guillermo Alvez / Auditoría (confirmar titular operativo)';
 nominees.M08='Christian Rojas / Compras (separar demanda comercial de ejecución logística)';
 nominees.M09='Christian Rojas / Gastón (Logística), enlace Comercial a designar';
+nominees.M04='Romina Garfi, Carolina Tavernisse (Non-Food), Camila Klipauka (Perfumería), Marcelo Cingolani, Diego Baldi (Perecederos), Paloma Romero (Barrio)';
+nominees.M05=nominees.M04;
+nominees.M07='Guillermo Alvez / Javier Dafonte';
+nominees.M08="Christian Rojas (Logística) / Liliana D'Amico, Carolina Tavernisse (Compras)";
+nominees.M10='IT + Control de Stock + Hernán López (líder SGM DIARCO)';
 for(const [id,s]of [['M01','S22'],['M02','S28'],['M03','S25'],['M04','S23; S26'],['M05','S20; S21; S23'],['M06','S19; S20'],['M07','S19; S20'],['M09','S24; S29'],['M10','S19; S20; S27']])modules.find(m=>m.id===id).source+='; '+s;
 modules.find(m=>m.id==='M06').do[0]='Revisar cuadro de controles de tienda escuela, recepción, ajustes, decomisos y devoluciones, con autorización, remito y numeración SGM.';
 modules.find(m=>m.id==='M07').do[0]='Preparar foto de stock SGM con movimientos pendientes regularizados, mapas/QR y validación PDA; distinguir toma y aplicación del resultado.';

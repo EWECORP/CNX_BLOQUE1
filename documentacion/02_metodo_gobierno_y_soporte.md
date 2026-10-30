@@ -1,6 +1,6 @@
 # Método operativo, aceptación y soporte
 
-Versión 0.2 propuesta, basada en `Plan de Despliegue - Estrategia.md` por elección expresa del usuario. Convivencia gradual: SGM conserva temporalmente stock y pendientes, recibe las operaciones de Connexa y mantiene el envío de OC a proveedores. Aplicar a las capacidades y poblaciones de cada oleada. Las reglas y umbrales nuevos de este documento deben acordarse con DIARCO.
+Versión 0.4 propuesta, actualizada el 30/10 con Gobierno, Asignaciones y RACI del libro. Basada en `Plan de Despliegue - Estrategia.md` por elección expresa del usuario. Convivencia gradual: SGM conserva temporalmente stock y pendientes, recibe las operaciones de Connexa y mantiene el envío de OC a proveedores. Aplicar a las capacidades y poblaciones de cada oleada. Las reglas y umbrales nuevos de este documento deben acordarse con DIARCO.
 
 ## Unidad de implementación
 
@@ -21,7 +21,9 @@ Los IDs del libro son estables. Para repetir UAT, duplicar la fila con un ID de 
 | US | Usuario piloto | Opera y reporta dificultades con evidencia |
 | MD | Líder mesa de ayuda DIARCO | Registra, clasifica, comunica y sigue tickets |
 | IT | Líder IT DIARCO | Accesos, infraestructura, continuidad e integración local |
+| CIO | Enlace de Dirección para IT DIARCO | Facilita responsable IT operativo, capacidad y cobertura; no reemplaza el rol IT |
 | LZ | Líder implementación Zeetrex | Plan y entrega coordinada de Zeetrex |
+| CMZ | Gestión del Cambio Zeetrex | Plan de formación, práctica, adopción y seguimiento de preparación con los referentes DIARCO |
 | ZF | Funcional Zeetrex | Configuración, formación y asistencia de proceso |
 | ZT | Técnico/L2 Zeetrex | Diagnóstico especializado, correcciones e integración |
 | EXT | Responsable externo | Interfaz y soporte de su sistema, cuando aplique |
@@ -30,12 +32,14 @@ R ejecuta; A responde por el resultado y decide su aceptación; C aporta antes d
 
 DP y RF se resuelven al nombre del módulo de la fila. No son un único dueño o referente para todo DIARCO. La hoja Asignaciones contiene titular, suplente y jefatura que libera la capacidad. Una misma persona no deberá aprobar una operación si la segregación acordada lo impide.
 
+La hoja Gobierno del 30/10 propone a Eduardo Ettlin como LZ, a Pablo Duplessy como CMZ y a Alejandro Ledesma / Eduardo Ettlin para ZT. El titular técnico y su respaldo se acuerdan por circuito. Guillermo Añaños figura como CIO DIARCO provisto por Zeetrex y debe facilitar la asignación de IT DIARCO; el responsable operativo IT y la mesa de ayuda siguen por nombrar. **CIO y CMZ ya tienen columnas en la RACI v0.4**. CMZ coordina formación y adopción, mientras el DP conserva la aceptación funcional. La RACI sigue propuesta hasta que se acuerden nombres, horas y facultades en G0.
+
 ## Cadencia y decisiones
 
 | Instancia | Participantes | Frecuencia propuesta | Salida |
 |---|---|---|---|
 | Coordinación de ejecución | LD, LZ, referentes activos, IT/mesa según tema | 15 min diarios en semanas activas | Acciones, bloqueos, responsable y fecha |
-| Taller de módulo | DP, RF, suplente, ZF y especialistas | 2 sesiones semanales de 60–90 min por módulo activo | Definiciones, práctica o evidencia UAT |
+| Taller de módulo | DP, RF, suplente, ZF, CMZ y especialistas según tema | 2 sesiones semanales de 60–90 min por módulo activo | Definiciones, práctica o evidencia UAT |
 | Revisión del plan | LD, LZ, DP, IT y MD | 45 min semanal | Capacidad, dependencias, riesgo y decisión siguiente |
 | Comité de Dirección | SP y líderes, dueños invitados | 30 min semanal y ante gate/bloqueo crítico | Decisiones y recursos |
 | Seguimiento de piloto/corte | Equipo del circuito y soporte | Ventana operativa acordada | Estado, conciliación y continuidad |

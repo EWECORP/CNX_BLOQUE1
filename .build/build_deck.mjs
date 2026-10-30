@@ -4,12 +4,12 @@ import {pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
 import {people,sources,wbs} from './model.mjs';
 const root=path.resolve(import.meta.dirname,'..');
-const skill='C:/Users/eduar/.codex/plugins/cache/openai-primary-runtime/presentations/26.1025.11240/skills/presentations';
+const skill='C:/Users/eduar/.codex/plugins/cache/openai-primary-runtime/presentations/26.1029.11837/skills/presentations';
 const python='C:/Users/eduar/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 process.env.RUNTIME_NODE_MODULES='C:/Users/eduar/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
 process.env.RUNTIME_NODE='C:/Users/eduar/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe';
 process.env.RUNTIME_PYTHON=python;
-const finalPath=path.join(root,'outputs/20261029/DIARCO_Bloque1_Direccion_v0.2.pptx');
+const finalPath=path.join(root,'outputs/20261029/DIARCO_Bloque1_Direccion_v0.4.pptx');
 const stage=path.join(root,'.build/.codex-finalizer');await fs.mkdir(stage,{recursive:true});
 const p=Presentation.create({slideSize:{width:1280,height:720}});
 const navy='#19334C',blue='#26678D',ink='#253748',muted='#586B7A',white='#FFFFFF',pale='#F6F8FA',orange='#BA631A';
@@ -36,18 +36,18 @@ function table(s,headers,rows,widths,{y=185,h=430,font=22}={}){const vals=[heade
  lines(s,['Sponsor y líder operativo DIARCO con facultades claras.','Dueño, referente titular y suplente por módulo.','Horas protegidas y ventanas de prueba autorizadas.','IT y mesa de ayuda incorporados desde la preparación.','Población del paralelo y reglas de aceptación acordadas.'],64,184,1130,83,27);
 }
 {
- const s=slide('Gobierno propuesto con los nombres disponibles','Los cargos fueron informados por el usuario. Las funciones de proyecto son propuestas, pendientes de acuerdo. No asignar a estos directivos todas las tareas operativas. El líder DIARCO, referentes, suplentes, IT y mesa aún deben designarse.',['S12','S09']);
- table(s,['Persona','Cargo informado','Función propuesta'],people.map(r=>[r[0],r[1],r[2]]),[280,290,582],{h:390,font:22});
- text(s,'Falta designar el equipo operativo DIARCO y confirmar su dedicación.',64,605,1150,45,24,orange,true);
+ const s=slide('Gobierno propuesto con los nombres disponibles','La hoja Gobierno fue editada por el usuario el 30/10. Las funciones de proyecto siguen como propuestas. Guillermo Añaños figura como CIO DIARCO provisto por Zeetrex; falta responsable IT operativo. La función ZT incluye a Alejandro Ledesma / Eduardo Ettlin: confirmar titular por circuito. El líder DIARCO, referentes, suplentes y mesa aún deben designarse.',['S31','S32','S09']);
+ table(s,['Persona','Cargo informado','Función propuesta'],people.map(r=>[r[0],r[1],r[2]]),[340,260,552],{h:430,font:19});
+ text(s,'Falta designar el equipo operativo DIARCO y confirmar su dedicación.',64,635,1150,35,21,orange,true);
 }
 {
- const s=slide('Bloque 1 comercial: preparación y uso','Alcance macro según Estrategia elegida y IMPLEMENTACION. El cierre de GAPS fija el detalle de cada oleada. Precio de venta y kardex pertenecen a la consolidación posterior.',['S10','S15','S16','S22','S23','S25','S13']);
+ const s=slide('Bloque 1 comercial: preparación y uso','Alcance macro según Estrategia elegida y IMPLEMENTACION. El cierre de GAPS fija el detalle de cada oleada. Precio de venta y kardex pertenecen a la consolidación posterior. Para abastecimiento y OC, Asignaciones incorpora a Romina Garfi, Carolina Tavernisse, Camila Klipauka, Marcelo Cingolani, Diego Baldi y Paloma Romero; acordar cobertura por categoría y formato.',['S10','S15','S16','S22','S23','S25','S32','S13']);
  table(s,['Frente','Qué debe demostrar DIARCO','Referente a confirmar'],[
  ['Catálogo y maestros','Datos correctos y cambio trazable en los destinos.','Guillermo Alvez / Datos Maestros'],
  ['Surtido y clusters','Elegibilidad y excepciones por artículo/sucursal.','Liliana D’Amico'],
  ['Listas y acuerdos de compra','Vigencias, descuentos y netos explicables.','Sebastián Basconcelos'],
- ['Abastecimiento','Propuesta revisada con entradas y motivos visibles.','Romina Garfi'],
- ['OC e integración','Aprobación única y valorización conciliada.','Compras / Romina Garfi']
+ ['Abastecimiento','Propuesta revisada con entradas y motivos visibles.','Compras por categoría: 6 contactos'],
+ ['OC e integración','Aprobación única y valorización conciliada.','Compras por categoría: 6 contactos']
  ],[265,585,302],{h:420,font:22});
  text(s,'Los interlocutores de las fuentes todavía deben aceptar función, suplencia y horas.',64,626,1140,35,20,muted);
 }
@@ -86,7 +86,7 @@ function table(s,headers,rows,widths,{y=185,h=430,font=22}={}){const vals=[heade
  lines(s,['Explicar entradas, reglas y controles.','Detectar y escalar una excepción.','Trabajar con un suplente preparado.','Sostener el proceso después del proyecto.'],662,256,548,83,26);
 }
 {
- const s=slide('El WBS vincula tareas, responsables y evidencia',`Ejemplo de secuencia por módulo. El libro contiene ${wbs.length} actividades, con dependencias y campos para nombres, fechas, evidencia y aceptación. No presenta ejecución real.`,['S09','S13','S19','S20','S27']);
+ const s=slide('El WBS vincula tareas, responsables y evidencia','Ejemplo de secuencia por módulo. El libro v0.4 contiene 116 actividades, incluidas las cuatro de enlace IT, cobertura L2, formación y adopción. Las nuevas filas están al final y se ordenan por ID/predecesoras al planificar. No presenta ejecución real.',['S09','S13','S19','S20','S27','S31','S32']);
  table(s,['Secuencia del módulo','Ejecuta','Acepta / responde'],[
  ['Preparar casos y datos','Referente DIARCO','Dueño del proceso'],
  ['Validar reglas y configuración','Referente DIARCO','Dueño del proceso'],
@@ -132,14 +132,14 @@ function table(s,headers,rows,widths,{y=185,h=430,font=22}={}){const vals=[heade
  ],[150,650,352],{h:420,font:23});
 }
 {
- const s=slide('Compromisos que deben quedar en el acta','Cierre sugerido: leer nombres, horas, fecha y evidencia esperada en voz alta. Roberto Goldfarb brinda patrocinio institucional propuesto. Pablo Bertolissio asume sponsor operativo propuesto. Daniel Padin compromiso ejecutivo Zeetrex. Luciano/Eduardo funciones de coordinación y técnica propuestas. El líder operativo DIARCO sigue pendiente.',['S01','S12','S13','S09']);
+ const s=slide('Compromisos que deben quedar en el acta','Cierre sugerido: leer nombres, horas, fecha y evidencia esperada en voz alta. Roberto Goldfarb brinda patrocinio institucional propuesto. Pablo Bertolissio asume sponsor operativo propuesto. Daniel Padin compromiso ejecutivo Zeetrex. Guillermo Añaños facilita IT DIARCO, Eduardo Ettlin lidera Zeetrex, Pablo Duplessy coordina el cambio y Alejandro Ledesma / Eduardo Ettlin cumplen función técnica propuesta. El líder operativo DIARCO sigue pendiente.',['S01','S31','S32','S13','S09']);
  lines(s,['Quién lidera DIARCO y quién decide por cada proceso.','Quiénes serán titulares y suplentes, con horas liberadas.','Qué módulos y población empiezan el paralelo desde el 04/11.','Cómo se comparan resultados y quién firma aceptación.','Qué cobertura de IT, mesa y Zeetrex acompaña cada ventana.'],64,190,1140,84,28);
 }
 
 const candidate=path.join(stage,'candidate.pptx');await(await PresentationFile.exportPptx(p)).save(candidate);
 const {finalizePresentation}=await import(pathToFileURL(path.join(skill,'container_tools/artifact_tool_utils.mjs')).href);
 const owners=[3,4,5,7,9,11,12,13];
-const result=await finalizePresentation({workspaceDir:root,candidatePath:candidate,finalPath,pythonExecutable:python,integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit',...owners.flatMap(n=>['--require-native-table-slide',String(n)])],requiredNativeTableOwnerSlides:owners,fontPolicy:{basis:'design',families:['Arial']},verifyArtifactToolImport:true,receiptPath:path.join(stage,'validation-v0.2-utf.json')});
+const result=await finalizePresentation({workspaceDir:root,candidatePath:candidate,finalPath,pythonExecutable:python,integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit',...owners.flatMap(n=>['--require-native-table-slide',String(n)])],requiredNativeTableOwnerSlides:owners,fontPolicy:{basis:'design',families:['Arial']},verifyArtifactToolImport:true,receiptPath:path.join(stage,'validation-v0.4.json')});
 console.log(JSON.stringify(result));
 for(const [i,s]of p.slides.items.entries()){const png=await p.export({slide:s,format:'png',scale:1});await fs.writeFile(path.join(root,`.build/previews/slide_${String(i+1).padStart(2,'0')}.png`),new Uint8Array(await png.arrayBuffer()));}
 console.log(JSON.stringify({slides:p.slides.items.length,output:finalPath}));

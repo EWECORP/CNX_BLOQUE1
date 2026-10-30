@@ -1,6 +1,6 @@
 # Plantillas operativas
 
-Versión 0.2 propuesta. Completar las fichas en el repositorio acordado y enlazarlas desde el libro. Una plantilla vacía no representa una aprobación.
+Versión 0.3 propuesta, actualizada el 30/10. Completar las fichas en el repositorio acordado y enlazarlas desde el libro. Una plantilla vacía no representa una aprobación.
 
 ## T01 · Acta de compromiso de Dirección
 
@@ -11,6 +11,9 @@ Versión 0.2 propuesta. Completar las fichas en el repositorio acordado y enlaza
 | Sponsor y suplente | [completar] | [completar] | [completar] |
 | Líder implementación DIARCO | [completar] | [completar] | [completar] |
 | Líder Zeetrex | [completar] | [completar] | [completar] |
+| Gestión del Cambio Zeetrex | [nombre, agenda y alcance] | [completar] | [completar] |
+| Enlace de Dirección para IT DIARCO | [nombre y autoridad para liberar recursos] | [completar] | [completar] |
+| Responsable técnico/L2 y respaldo | [nombres por circuito] | [completar] | [completar] |
 | Capacidades B1 / diferidas | [enlace a baseline] | [completar] | [completar] |
 | Dueños, referentes y suplentes | [enlace a asignaciones] | [completar] | [completar] |
 | Horas y redistribución de tareas | [enlace a compromiso de jefaturas] | [completar] | [completar] |

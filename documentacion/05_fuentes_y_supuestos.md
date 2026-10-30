@@ -1,6 +1,6 @@
 # Fuentes, supuestos y límites de la propuesta
 
-Versión 0.2. Corte documental 29/10/2026. No se consultaron bases productivas, no se ejecutaron corridas y no se cambió ninguna aplicación o fuente conectada.
+Versión 0.4. Corte documental 30/10/2026. No se consultaron bases productivas ni se ejecutaron corridas.
 
 ## Trazabilidad
 
@@ -19,6 +19,8 @@ Versión 0.2. Corte documental 29/10/2026. No se consultaron bases productivas, 
 | S11 | [PLAN DE DESPLIEGUE](PLAN%20DE%20DESPLIEGUE.md) | Antecedente con corte total 07/11 incompatible con S10. Ese corte no rige por decisión del usuario. Se preserva el original |
 | S12 | Respuesta del usuario, 29/10/2026 | Cinco personas y cargos. Las facultades del proyecto se proponen por separado, no se consideran aceptadas |
 | S13 | Instrucción posterior del usuario, 29/10/2026 | Desde el 04/11: módulos productivos disponibles, smoke tests y algunos días de paralelo para aceptación progresiva. Comparar OC valorizada Connexa/DIARCO conservando validez de información DIARCO |
+| S31 | Hoja Gobierno del [plan editable](../outputs/20261029/DIARCO_Bloque1_Plan_v0.2.xlsx), editada por el usuario el 30/10 | Siete registros de gobierno, incluidos Guillermo Añaños, Pablo Duplessy y la función técnica compartida Alejandro Ledesma / Eduardo Ettlin. Sus estados siguen como propuestas a confirmar |
+| S32 | Hoja Asignaciones del [plan editable](../outputs/20261029/DIARCO_Bloque1_Plan_v0.2.xlsx), editada por el usuario el 30/10 | Interlocutores ampliados por módulo. Los campos de asignación y aceptación nominal siguen sin completar |
 
 Rutas locales relativas al directorio de este documento. Las fuentes locales del framework están fuera de CNX_BLOQUE1; no se modificaron.
 
@@ -40,7 +42,7 @@ Rutas locales relativas al directorio de este documento. Las fuentes locales del
 - S13 sustituye las fechas históricas de arranque 07/11 y 09/11 por el objetivo de disponibilidad y smoke/paralelo desde el 04/11. La aceptación será progresiva con evidencia. No se transforma el 04/11 en fecha de adopción de toda la red ni de apagado SGM. D06 completa la maestría bajo información DIARCO/SGM válida en etapa 1.
 - Pedidos de logística/transportes del documento de octubre exceden el alcance rector de PDD Fase 1. Deben asignarse a otro módulo/bloque o cambiar el alcance mediante decisión expresa.
 - Listas y acuerdos de compra son distintos de administración del precio de venta. El segundo no ingresa al Bloque 1 por semejanza de nombres.
-- Se dispone de alcance macro B1 según S10 y cinco nombres/cargos aportados. Siguen pendientes clasificación fina de GAPS, aceptación de funciones del proyecto, líder operativo DIARCO, referentes/IT/mesa, dedicaciones, volumen piloto, cobertura de soporte y resultados de aceptación.
+- Se dispone de alcance macro B1 según S10 y siete registros en Gobierno tras S31. Siguen pendientes clasificación fina de GAPS, aceptación de funciones del proyecto, líder operativo DIARCO, responsables operativos de IT y mesa, dueños, referentes, suplentes, dedicaciones, volumen piloto, cobertura de soporte y resultados de aceptación. Los nombres de S32 son interlocutores, no titulares designados.
 
 ## Uso de estimaciones
 
@@ -50,7 +52,7 @@ Los dos ciclos de piloto, cinco días de estabilidad, 100% de casos críticos y 
 
 ## Control de versión
 
-0.1, 29/10/2026: primera propuesta y kit editable. Cambios futuros: registrar autor, versión, qué cambia, fuente/decisión y pruebas afectadas. Las aprobaciones se registrarán por persona autorizada; no se infieren por presencia en una reunión ni por recepción del material.
+0.1, 29/10/2026: primera propuesta y kit editable. 0.2, 29/10/2026: minutas recientes y controles del paralelo. 0.3, 30/10/2026: correspondencia documental con Gobierno y Asignaciones editadas por el usuario. 0.4, 30/10/2026: RACI CIO/CMZ, tareas WBS, capacidad, formación, decisión D14 y riesgos R12/R13. Los cambios posteriores deben registrar autor, versión, fuente/decisión y pruebas afectadas. Las aprobaciones se registrarán por persona autorizada; no se infieren por presencia en una reunión ni por recepción del material.
 
 ## Fuentes incorporadas desde IMPLEMENTACION
 

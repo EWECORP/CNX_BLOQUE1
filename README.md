@@ -1,14 +1,14 @@
 # DIARCO · Implementación Bloque 1
 
-Versión 0.2 propuesta para revisión. Preparada el 29/10/2026 para la reunión del lunes **02/11/2026**. Confidencial: DIARCO / Zeetrex.
+Versión 0.4 del kit, actualizada el 30/10/2026 para la reunión del lunes **02/11/2026**. El libro v0.2 conserva las ediciones originales del usuario y v0.4 incorpora la RACI y las tareas nuevas. Confidencial: DIARCO / Zeetrex.
 
 El objetivo es acordar un equipo DIARCO que implemente y luego sostenga cada proceso. La asignación debe incluir nombre, autoridad, tiempo protegido, suplente y resultados verificables.
 
 ## Material para usar el lunes
 
 1. [Propuesta ejecutiva y decisiones de Dirección](documentacion/01_estrategia_y_compromiso_direccion.md): argumento, alcance, dedicación propuesta, secuencia y agenda de decisión.
-2. Presentación editable en `outputs/20261029/DIARCO_Bloque1_Direccion_v0.2.pptx`.
-3. Plan editable en `outputs/20261029/DIARCO_Bloque1_Plan_v0.2.xlsx`: WBS, asignaciones, RACI, GAPS, UAT, decisiones y riesgos. Las hojas contienen propuestas; no registran avances reales.
+2. Presentación editable, actualizada con Gobierno, interlocutores y WBS vigente, en `outputs/20261029/DIARCO_Bloque1_Direccion_v0.4.pptx`.
+3. Plan editable vigente en `outputs/20261029/DIARCO_Bloque1_Plan_v0.4.xlsx`: WBS, asignaciones, RACI, GAPS, UAT, decisiones y riesgos. Las hojas contienen propuestas; no registran avances reales.
 
 ## Kit operativo
 
@@ -31,6 +31,10 @@ Para adaptar el kit a otro cliente, copiar la estructura, vaciar datos y decisio
 
 ## Actualización con las minutas recientes
 
-El plan incorpora IMPLEMENTACION/REUNIONES y el informe del 23/10. El detalle está en [síntesis de decisiones y preparación del paralelo](documentacion/06_minutas_y_preparacion_paralelo.md). Versión 0.2: 112 actividades WBS, 33 casos iniciales, 10 frentes y 14 hojas.
+El plan incorpora IMPLEMENTACION/REUNIONES y el informe del 23/10. El detalle está en [síntesis de decisiones y preparación del paralelo](documentacion/06_minutas_y_preparacion_paralelo.md). La versión vigente contiene 116 actividades WBS, 33 casos iniciales, 10 frentes y 14 hojas.
+
+**Actualización del 30/10:** la hoja Gobierno del libro contiene siete registros, con Guillermo Añaños para el enlace de Dirección con IT DIARCO, Eduardo Ettlin para el liderazgo Zeetrex, Pablo Duplessy para Gestión del Cambio y Alejandro Ledesma / Eduardo Ettlin para la función técnica L2. La hoja Asignaciones amplía interlocutores en compras, OC, inventarios, PDD y stock. Las guías y la propuesta ejecutiva reflejan esa nómina. Las funciones siguen como propuestas; los campos de aceptación y horas continúan vacíos.
+
+La revisión v0.4 agrega **CIO** y **CMZ** a la matriz RACI, cuatro tareas WBS, preparación de los tres perfiles transversales, una decisión y dos riesgos. Las tareas nuevas están al final de WBS para conservar las filas originales; filtrar por ID y predecesoras al planificar. Gobierno y Asignaciones mantienen los valores editados por el usuario.
 
 Repositorio compartido del equipo: [IMPLEMENTACION](https://drive.google.com/drive/folders/16nz4aDlr91-vfIEMitnNC3J1JvD3MVd2). Los entregables de este kit se guardaron localmente; no se subieron ni reemplazaron documentos de Drive.
