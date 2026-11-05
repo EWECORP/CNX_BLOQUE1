@@ -4,6 +4,10 @@
 
 **Primer sector piloto: No Comestibles (C07), con Liliana D'Amico y Carolina Tavernisse**, por indicación del usuario del 05/11. Abrir **Piloto No Comestibles** para seguir la preparación y sus enlaces a capacitación, pruebas y aceptación.
 
+Para la primera reunión con el sector, usar el [pedido de información por proveedor y cronograma tentativo del piloto](documentacion/08_reunion_y_cronograma_piloto_no_comestibles.md). Identifica qué deben entregar DIARCO y Zeetrex, casos a probar y registros del libro que se completarán.
+
+El [Gantt integrado tentativo de Bloque 1](documentacion/09_gantt_integrado_tentativo_bloque1.md) distribuye formación, entrega de datos, UAT, paralelo y aceptación entre los 15 circuitos. Considera los feriados de noviembre/diciembre y la capacidad compartida de los referentes; sus fechas son hipótesis hasta confirmar agenda, estado técnico y gates.
+
 El **libro vigente es [DIARCO_Bloque1_Plan_v0.5.xlsx](outputs/20261105/DIARCO_Bloque1_Plan_v0.5.xlsx)**, derivado de la v0.4 editada por el usuario. Abrir **Matriz circuitos** para consultar los 15 circuitos por sector/formato, las parejas titular/suplente y sus vínculos con capacitación, casos, ejecuciones y aceptación. [Guía y aclaraciones de la matriz](documentacion/07_matriz_sector_circuito.md).
 
 La v0.5 conserva las 14 hojas anteriores y agrega ocho: piloto, guía, matriz, equipo, formación por circuito, casos por circuito, ejecuciones y aceptación. Los 75 casos nuevos son propuestas sin ejecutar. Las barras `/` se interpretan como titular / suplente y los paréntesis como área; se conservan anotaciones adicionales por precisar. Las horas ya cargadas no se multiplican por circuito. Las referencias siguientes a la v0.4, la reunión del 02/11 y el objetivo del 04/11 describen la base histórica; no acreditan habilitación ni cumplimiento posterior.
@@ -12,11 +16,11 @@ Versión 0.5 de la documentación, actualizada el 30/10/2026 para la reunión de
 
 El objetivo es acordar un equipo DIARCO que implemente y luego sostenga cada proceso. La asignación debe incluir nombre, autoridad, tiempo protegido, suplente y resultados verificables.
 
-## Material para usar el lunes
+## Material base de la reunión del 02/11
 
 1. [Propuesta ejecutiva y decisiones de Dirección](documentacion/01_estrategia_y_compromiso_direccion.md): argumento, alcance, dedicación propuesta, secuencia y agenda de decisión.
 2. Presentación editable, actualizada con Gobierno, interlocutores y WBS vigente, en `outputs/20261029/DIARCO_Bloque1_Direccion_v0.4.pptx`.
-3. Plan editable vigente en `outputs/20261029/DIARCO_Bloque1_Plan_v0.4.xlsx`: WBS, asignaciones, RACI, GAPS, UAT, decisiones y riesgos. Las hojas contienen propuestas; no registran avances reales.
+3. Plan base v0.4 en `outputs/20261029/DIARCO_Bloque1_Plan_v0.4.xlsx`: WBS, asignaciones, RACI, GAPS, UAT, decisiones y riesgos. La continuación operativa vigente es la v0.5 enlazada arriba; ninguna de las dos acredita avances reales sin completar sus registros.
 
 ## Kit operativo
 

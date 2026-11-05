@@ -65,4 +65,8 @@ La formación combina base común, taller del sector con datos reales y evaluaci
 
 La próxima sesión debe definir proveedores, artículos, sucursales, perfil de carga, particularidades y dueño que acepta, y acordar disponibilidad. Luego preparar datos/esperados, realizar práctica individual y ejecutar los seis casos CC-C07-01 a CC-C07-06. Los otros sectores mantienen su secuencia por acordar. La selección no acredita capacitación, pruebas ni habilitación productiva.
 
+Para convocar y conducir esa sesión, usar el [pedido de información, fichas por proveedor y cronograma tentativo C07](08_reunion_y_cronograma_piloto_no_comestibles.md). La selección de proveedores debe identificar códigos y documentos reales, condiciones simples/complejas y una excepción aplicable; el ejemplo de perfiles de esa guía no reemplaza las decisiones de DIARCO.
+
+La secuencia entre los quince circuitos, las ventanas de formación/UAT y los recursos compartidos están en el [Gantt integrado tentativo](09_gantt_integrado_tentativo_bloque1.md). El calendario deja sin sesiones conjuntas el 09–11/11 y usa gates por circuito, no una fecha única de corte.
+
 La fuente v0.4 conserva las 14 hojas originales. La v0.5 agrega ocho hojas (incluida Piloto No Comestibles) y es la continuación operativa para esta matriz. Reconstrucción: ejecutar `.build/build_matrix_v05.py` y después `.build/select_pilot_c07.py`. Reportes en `outputs/20261105/validacion_matriz_v05.json` y `validacion_piloto_c07.json`.
