@@ -1,0 +1,12 @@
+{
+  "source": "C:\\ETL\\CNX_BLOQUE1\\outputs\\20261029\\DIARCO_Bloque1_Plan_v0.4.xlsx",
+  "source_sha256": "17a1d21a673da4a95b997f5a9cd173c49c6f35e6ec7af48e06516c80aa14912b",
+  "output": "C:\\ETL\\CNX_BLOQUE1\\outputs\\20261105\\DIARCO_Bloque1_Plan_v0.5.xlsx",
+  "original_sheets_preserved": 14,
+  "circuits": 15,
+  "training": 30,
+  "cases": 75,
+  "initial_executions": 75,
+  "acceptances": 15,
+  "checks": "Original values, formulas, number formats, styles and merges preserved; IDs, references and internal hyperlinks verified."
+}

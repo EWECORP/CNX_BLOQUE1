@@ -1,5 +1,13 @@
 # DIARCO · Implementación Bloque 1
 
+## Actualización operativa del 05/11/2026
+
+**Primer sector piloto: No Comestibles (C07), con Liliana D'Amico y Carolina Tavernisse**, por indicación del usuario del 05/11. Abrir **Piloto No Comestibles** para seguir la preparación y sus enlaces a capacitación, pruebas y aceptación.
+
+El **libro vigente es [DIARCO_Bloque1_Plan_v0.5.xlsx](outputs/20261105/DIARCO_Bloque1_Plan_v0.5.xlsx)**, derivado de la v0.4 editada por el usuario. Abrir **Matriz circuitos** para consultar los 15 circuitos por sector/formato, las parejas titular/suplente y sus vínculos con capacitación, casos, ejecuciones y aceptación. [Guía y aclaraciones de la matriz](documentacion/07_matriz_sector_circuito.md).
+
+La v0.5 conserva las 14 hojas anteriores y agrega ocho: piloto, guía, matriz, equipo, formación por circuito, casos por circuito, ejecuciones y aceptación. Los 75 casos nuevos son propuestas sin ejecutar. Las barras `/` se interpretan como titular / suplente y los paréntesis como área; se conservan anotaciones adicionales por precisar. Las horas ya cargadas no se multiplican por circuito. Las referencias siguientes a la v0.4, la reunión del 02/11 y el objetivo del 04/11 describen la base histórica; no acreditan habilitación ni cumplimiento posterior.
+
 Versión 0.5 de la documentación, actualizada el 30/10/2026 para la reunión del lunes **02/11/2026**. El libro v0.2 conserva las ediciones originales del usuario y v0.4 incorpora la RACI y las tareas nuevas. Confidencial: DIARCO / Zeetrex.
 
 El objetivo es acordar un equipo DIARCO que implemente y luego sostenga cada proceso. La asignación debe incluir nombre, autoridad, tiempo protegido, suplente y resultados verificables.
