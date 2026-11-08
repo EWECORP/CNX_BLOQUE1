@@ -6,7 +6,7 @@
 
 Al terminar, debe existir un acta con:
 
-1. **Proveedores concretos identificados por código SGM y razón social**, elegidos por los *comportamientos* que deben probarse, no sólo por importancia comercial. Tres perfiles son una guía inicial; dos proveedores pueden cubrirlos o pueden hacer falta más. No fijar una cuota arbitraria de facturación.
+1. **Tres proveedores distintos identificados por código SGM y razón social**, elegidos por los *comportamientos* que deben probarse, no sólo por importancia comercial. Uno puede cubrir varios perfiles; el tercero amplía la muestra con otra operación real. No fijar una cuota arbitraria de facturación.
 2. **Para cada proveedor:** tipo de compra, condiciones, lista, artículos, sucursales, forma de recibir/enviar la OC, volumen normal y pico, excepciones, dueño de la información y documentos de ejemplo.
 3. **Una población exacta:** códigos de proveedor, SKU y sucursales incluidos, período y operaciones permitidas en TEST/paralelo. Identificar explícitamente lo excluido.
 4. **Personas y agenda:** Liliana/Carolina, dueño funcional que acepta, Sebastián Basconcelos o referente efectivo de listas, comprador ejecutor, aprobador de OC, IT/SGM y Zeetrex. Confirmar disponibilidad real y suplencias; las horas de M04 y M05 no se suman dos veces para la misma persona.
@@ -51,7 +51,7 @@ Al terminar, debe existir un acta con:
 | P-B · condiciones complejas | Uno con precio por sucursal, bonificación por volumen o impuestos particulares, **si existe en No Comestibles** | Precedencia del precio específico; vigencias separadas; secuencia de descuentos e impuestos; rechazo/corrección de OC | Dos listas/versiones o reglas, ejemplos de cálculo firmados por Compras/Impuestos, OC real |
 | P-C · excepción o temporada | Uno con campaña, mínimo/múltiplo, surtido selectivo, baja rotación o entrega parcial | Vigencia y excepción; cantidad ajustada; posible dependencia de recepción/OC madre | Calendario, restricción, pedido/OC de excepción, destino y resultado esperado |
 
-Un proveedor puede cubrir varios perfiles. Si no existe P-B o P-C con esas características, registrar «no aplica» y elegir otra excepción real. No fabricar una operación para completar la matriz.
+Un proveedor puede cubrir varios perfiles, pero el lote debe incluir tres proveedores distintos. Si no existe P-B o P-C con esas características, registrar «no aplica» y elegir otro proveedor real con un comportamiento útil. Si el sector no dispone de tres proveedores elegibles, documentar la limitación y acordar con el dueño funcional cómo ampliar la muestra. No fabricar una operación para completar la matriz.
 
 ## Lista de tareas y cronograma tentativo
 

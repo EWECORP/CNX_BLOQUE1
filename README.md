@@ -1,5 +1,11 @@
 # DIARCO · Implementación Bloque 1
 
+## Inicio con referentes · martes 10/11/2026
+
+La [presentación para conducir el inicio del despliegue](outputs/20261107/DIARCO_Bloque1_Inicio_Referentes_20261110_v1.0.pptx) se acompaña con el [guion y acta de la reunión](documentacion/10_reunion_inicio_referentes_20261110.md), la [agenda repetible de capacitación y matriz de usuarios, roles y autorizadores](documentacion/11_capacitacion_usuarios_y_accesos.md) y la [guía para elegir tres proveedores, ejecutar pruebas y registrar evidencia](documentacion/12_lote_pruebas_y_evidencia_referentes.md).
+
+El objetivo de planificación es disponer técnicamente de los módulos acordados en Producción alrededor del 17/11. Cada circuito se habilita de forma gradual tras accesos aprobados, capacitación, pruebas, paralelo y decisión documentada. Durante la convivencia, SGM conserva stock y pendientes oficiales y recibe las operaciones Connexa habilitadas mediante el contrato de integración certificado. La referencia anterior al 04/11 describe el objetivo de disponibilidad temprana; no acredita que el circuito ya esté autorizado a operar.
+
 ## Actualización operativa del 05/11/2026
 
 **Primer sector piloto: No Comestibles (C07), con Liliana D'Amico y Carolina Tavernisse**, por indicación del usuario del 05/11. Abrir **Piloto No Comestibles** para seguir la preparación y sus enlaces a capacitación, pruebas y aceptación.
