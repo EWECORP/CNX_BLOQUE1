@@ -1,6 +1,6 @@
 # Método operativo, aceptación y soporte
 
-Versión 0.5 propuesta, actualizada el 30/10 con Gobierno, Asignaciones, RACI y minutas S33–S36. Basada en `Plan de Despliegue - Estrategia.md` por elección expresa del usuario. Convivencia gradual: SGM conserva temporalmente stock y pendientes, recibe las operaciones de Connexa y mantiene el envío de OC a proveedores. Aplicar a las capacidades y poblaciones de cada oleada. Las reglas y umbrales nuevos de este documento deben acordarse con DIARCO.
+Versión 0.6 propuesta, actualizada el 09/11 con las minutas S37–S41. Basada en `Plan de Despliegue - Estrategia.md` por elección expresa del usuario. Convivencia gradual: SGM conserva temporalmente stock y pendientes, recibe las operaciones de Connexa y mantiene el envío de OC a proveedores. Aplicar a las capacidades y poblaciones de cada oleada. Las reglas y umbrales nuevos de este documento deben acordarse con DIARCO.
 
 ## Unidad de implementación
 
@@ -54,7 +54,9 @@ Un cambio requiere solicitud, motivo, capacidad afectada, beneficio, alternativa
 
 **G1, preparación y UAT.** Datos y resultados esperados aprobados por negocio. Permisos, ambiente y versión identificados. Titular y suplente demuestran las tareas críticas. Propuesta: 100% de casos críticos aplicables aprobados y cero defectos críticos o altos abiertos en el circuito. El dueño firma el resultado; la demostración de Zeetrex no equivale a aceptación de DIARCO.
 
-**G2, piloto.** Propuesta: al menos dos ciclos completos con usuarios DIARCO, uno con una excepción de negocio. Todos los documentos/cantidades/valores críticos concilian bajo la tolerancia aprobada antes de probar. Contingencia y soporte se ensayan. Si el proceso tiene ciclo semanal u otro plazo, se ajusta el calendario para observar ciclos completos.
+Para C07, antes de firmar G1 comprobar además que el maestro y las listas vigentes del lote estén nivelados; la versión vigente siga consultable durante una aprobación pendiente; comprador y autorizador puedan completar su recorrido; las condiciones habituales y las excepciones se comparen con esperado aprobado; y la OC valorizada llegue a SGM sin duplicación. Las observaciones D-01–D-08 de S37 tienen dueño, ticket y resolución o exclusión de alcance aprobada. Un avance técnico informado en S39 no sustituye estas pruebas. **La aceptación del piloto en TEST precede al paralelo controlado en Producción.**
+
+**G2, piloto en paralelo controlado.** Tras G1 y una autorización acotada para la población piloto, DIARCO observa al menos dos ciclos completos en Producción, uno con una excepción de negocio. SGM conserva la autoridad definida y se compara en el mismo corte. Todos los documentos/cantidades/valores críticos concilian bajo la tolerancia aprobada; contingencia y soporte se ensayan. Si el proceso tiene ciclo semanal u otro plazo, se ajusta el calendario para observar ciclos completos. G2 cierra con aceptación del dueño, no por el simple transcurso de días.
 
 **G3, expansión por oleada.** Cada población nueva tiene roles, accesos, formación y soporte. IT valida corte, recuperación y monitoreo. Dueños recomiendan. Sponsor registra go/no-go con versión, alcance y ventana. El éxito de un piloto no autoriza automáticamente todas las sucursales.
 
@@ -86,12 +88,12 @@ La minuta técnica S33 propone **un único escritor por dominio a partir de una 
 |---|---|---|
 | Proveedores | Connexa lee inicialmente desde SGM; archivo SAP directo sólo en evaluación | Identificar estructura/frecuencia de SAP y conservar lectura SGM hasta cambio aprobado |
 | Artículos y artículo–sucursal | Mantenimiento progresivo en Connexa con actualización a SGM | Alta/cambio/baja lógica y todas las tablas/relaciones SGM cubiertas; restricción de edición anterior |
-| Listas y condiciones de compra | Gestión prevista en Connexa con réplica necesaria a SGM | Vigencia, precedencia por artículo/sucursal, descuentos e impuestos aprobados por negocio |
+| Listas y condiciones de compra | Mientras SGM sea origen, se estudia sincronización recurrente SGM→Connexa; al transferir el dominio, desactivar esa lectura y publicar Connexa→SGM | Carga inicial existente versus tarea recurrente pendiente; importación desde archivo como necesidad aparte; vigencia/visibilidad, precedencia, condiciones habituales/excepciones, descuentos e impuestos aprobados por negocio |
 | OC | Connexa origina y autoriza completa; SGM la incorpora para recepción y comunicación al proveedor | Procedimiento y contrato cabecera/detalle, numeración, estado, canal EDI/correo y acuse funcional |
 | Recepción y pendientes | SGM sigue operando los sitios no transferidos | Saldos y efectos de la recepción conciliados; contrato de retorno todavía por definir |
 | Transferencias | Connexa como origen futuro; Valkimia ejecuta y SGM necesita movimientos | Arquitectura aprobada y retorno diferenciado de preparado, despachado y no preparado, con remito y stock |
 
-S36 concluye que **Valkimia Web es una propuesta para evaluar**, no una interfaz aprobada para el 04/11. Adecuar la versión actual o usar tablas intermedias implica trabajo adicional; Excel/carga manual no quedó validado para operación masiva DIARCO. No incluir M09 en una oleada sólo porque Connexa puede producir un archivo: el circuito debe preservar pedido, pendiente, remito, movimiento de stock y estados en SGM/Valkimia/Connexa.
+S36 dejó **Valkimia Web como propuesta a evaluar**. S40–S41 priorizan ahora conocer y probar como puente transitorio el contrato vigente SGM–Valkimia: Connexa reproduciría su entrada, Valkimia podría conservar inicialmente el retorno a SGM y Connexa recuperaría de allí estados y cantidades. Se debe confirmar VPN, servidor/base, tablas, claves, permisos y ambiente TEST; ejecutar un caso completo, incluidos intervención manual, preparado parcial, reintento y convivencia de documentos SGM. Esta selección **no aprueba todavía la viabilidad ni una fecha de operación**. Excel/carga manual por sí sola no resuelve el retorno de estados. No incluir M09 en una oleada sólo porque Connexa puede producir un archivo: el circuito debe preservar pedido, pendiente, remito, movimiento de stock y estados en SGM/Valkimia/Connexa.
 
 Checklist previo a cada corte:
 

@@ -12,10 +12,12 @@ Cada sesión común se dicta **dos veces con el mismo contenido**. Cada persona 
 | Base común Connexa, TEST, evidencias y soporte | Todos los usuarios piloto y autorizadores | Jue 12/11 10:00–11:30 | Vie 13/11 15:00–16:30 | Acceso TEST comprobado o ticket; primera ficha de datos solicitada |
 | Compras, listas y OC | C03, C04–C08, aprobadores, IT/SGM | Lun 16/11 10:00–11:30 | Jue 19/11 15:00–16:30 | Flujo mostrado y set por proveedor con fecha de devolución |
 | Recepción, inventarios, stock e integración | C09–C12, C15, mesa e IT | Mar 24/11 10:00–11:30 | Jue 26/11 15:00–16:30 | Documentos/casos del circuito y responsables de conciliación |
-| Surtido y planificación | C02, C13 y compradores afectados | Mar 01/12 10:00–11:30 | Jue 03/12 15:00–16:30 | Política/datos de muestra y vínculo con operación acordados |
-| Distribución/Valkimia | C14, C13, IT/SGM y tercero | A coordinar tras decisión de arquitectura | A coordinar | Contrato y caso de prueba realizable; sin prometer UAT antes de la solución |
+| Diseño de surtido por categoría y planificación | C02, C13 y compradores afectados | Mar 01/12 10:00–11:30 | Jue 03/12 15:00–16:30 | Ejemplo Menaje, reglas y publicación a validar; la sesión no fija UAT C02 |
+| Distribución/Valkimia | C14, C13, IT/SGM y tercero | A coordinar tras contrato y TEST | A coordinar | Probar puente SGM–Valkimia y retorno antes de programar UAT |
 
 **Prácticas sectoriales:** C07 según la [guía diaria](08_reunion_y_cronograma_piloto_no_comestibles.md); los demás circuitos siguen sus ventanas del Gantt. CMZ distribuye el calendario, ZF facilita y el referente demuestra. Un comprador que participe en M04 y M05 hace una práctica integral con dos verificaciones, sin contar doble asistencia por la misma sesión.
+
+**Preparación antes de enseñar C03/C07:** verificar con un usuario comprador y otro aprobador el acceso a sus menús/bandejas, carga o importación de una lista real, consulta de la versión vigente mientras la nueva está pendiente, condición habitual recuperada en OC y autorización de una excepción. Si los datos de TEST no corresponden a maestros/listas vigentes, registrar bloqueo y nivelarlos antes del taller. La demostración debe distinguir funcionamiento confirmado de observaciones abiertas.
 
 ## Registro de asistencia y aptitud
 

@@ -14,6 +14,8 @@ Para **cada frente de compra C04–C08**, proponer **tres proveedores reales** i
 
 Elegir **tres proveedores distintos**. Uno puede cubrir dos situaciones; si el sector carece de un tipo, indicar «no aplica» y elegir otro proveedor con una operación real útil. Si no hay tres elegibles, documentar la limitación y acordar la ampliación con el dueño funcional. Para cada proveedor adjuntar: código, comprador, lista actual y versión/fecha, 5–20 SKU de muestra con unidad/bulto, sucursales, condiciones de pago, descuentos/impuestos, OC SGM real de referencia y volumen habitual/pico. Compras e Impuestos aprueban el cálculo esperado antes de UAT. Durante las pruebas, un único circuito autorizado comunica la OC al proveedor.
 
+Pedir además **una lista vigente y una versión nueva pendiente** cuando exista ese escenario; comprobar que la primera sigue visible y que su uso en la valorización no cambia prematuramente. Identificar el archivo de importación habitual y artículos omitidos entre versiones. Registrar condiciones habituales por proveedor/rubro y una excepción que deba autorizarse. Si un artículo tiene varios proveedores, aportar los factores y datos de paletizado de cada uno y confirmar cuál debe usar el caso. Estos datos alimentan los casos, pero no aprueban por sí solos una regla o un cambio de modelo.
+
 Para los **demás circuitos**, usar tres casos equivalentes: normal, excepción y volumen/recuperación. C01 necesita artículos/proveedores maestros; C02 listas y sucursales; C09 madre/hija; C10/C11 recepciones; C12 foto y ajuste de stock; C13 necesidades/prioridades; C14 retorno Valkimia; C15 interfaz/conciliación. Identificar el documento y sistema que tiene autoridad en cada caso.
 
 ## 2. Completar la ficha del lote
@@ -38,6 +40,7 @@ El referente entrega la ficha **2–3 días hábiles después de la inducción**
 1. Confirmar el usuario nominal en la [matriz de acceso](11_capacitacion_usuarios_y_accesos.md) y entrar con sus permisos propios. Registrar fecha, ambiente y versión, sin copiar credenciales.
 2. Ejecutar práctica guiada con Zeetrex. Titular y suplente demuestran normal y excepción. Si aparece un permiso indebido, detener el caso y registrarlo.
 3. Para cada `CC-*`, leer pasos y esperado aprobado. Operar con el lote elegido; guardar número de Connexa y número de SGM, estado y acuse cuando corresponda.
+   En compras, incluir un caso de lista vigente versus versión pendiente, otro de condición habitual versus excepción autorizada y, si aplica, artículo multiproveedor. Registrar si la importación desde archivo es imprescindible para probar a escala; una carga inicial de SGM no demuestra sincronización recurrente ni importación de uso diario.
 4. Comparar **línea por línea** cantidad, unidad, precio, descuentos, orden de aplicación, internos/IVA y redondeo; comparar cabecera, estado y total. La igualdad del total sola no prueba igualdad de líneas.
 5. Completar una fila en **Ejecuciones circuitos** por cada prueba. Registrar una fila nueva para la reprueba después de la corrección; no sustituir la evidencia anterior.
 
@@ -53,6 +56,6 @@ Al detectar un desvío, registrar síntoma, pasos para reproducir, impacto opera
 
 ## 5. Pasar a Producción por circuito
 
-Producción puede estar técnicamente disponible alrededor del **17/11** como objetivo de planificación. El usuario empieza a operar únicamente después de: permisos de Producción autorizados y probados; formación individual; casos críticos aprobados; dos ciclos de paralelo completos con excepción; conciliación SGM; soporte y contingencia listos; decisión documentada del gate para esa población. Registrar fecha efectiva, escritor autorizado, emisor único al proveedor y monitoreo diario.
+Producción puede estar técnicamente disponible alrededor del **17/11** como objetivo de planificación. El **piloto controlado** empieza después de G1 y de la autorización acotada a esa población: permisos productivos probados, formación individual, casos críticos aprobados, integración y emisor único certificados, soporte y contingencia listos. En ese paralelo DIARCO compara con SGM durante dos ciclos completos, uno con excepción, y el dueño decide G2. La **expansión** a otros proveedores, sucursales o usuarios requiere conciliación, aceptación G2 y decisión G3. Registrar fecha efectiva, escritor autorizado, emisor único al proveedor y monitoreo diario.
 
 Durante la convivencia, SGM conserva stock y pendientes oficiales; Connexa transmite las operaciones habilitadas a SGM mediante el contrato certificado. DIARCO valida que SGM las incorporó y que el proveedor recibió **una sola** OC por el canal acordado. La expansión a más proveedores, sucursales o usuarios genera su propio control de alcance y autorización.

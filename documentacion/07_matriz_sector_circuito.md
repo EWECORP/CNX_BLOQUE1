@@ -4,6 +4,23 @@ Actualizada el 05/11/2026. Libro operativo: [DIARCO_Bloque1_Plan_v0.5.xlsx](../o
 
 La matriz deriva del libro v0.4 con las asignaciones editadas por el usuario. La barra `/` se interpreta como titular / suplente y los paréntesis como área o sector, según la aclaración del usuario. Los casos son propuestas para acordar con los referentes; no acreditan ejecución, capacitación completada ni aceptación. No se asignan fechas de producción nuevas ni se presume cumplido el hito anterior del 04/11.
 
+## Actualización de Asignaciones M05 · 09/11/2026
+
+El usuario abrió **una fila M05 por frente** en `Asignaciones` del [libro v0.5](../outputs/20261105/DIARCO_Bloque1_Plan_v0.5.xlsx). Para la reunión del 10/11, esa hoja es la referencia más reciente **para M05**. La matriz de circuitos que sigue conserva la foto del 05/11 y debe conciliarse con estas filas antes de asignar la misma persona a M04, M05 y soporte del circuito.
+
+| Frente M05 | Titular en Asignaciones | Suplente en Asignaciones | Compromiso L | Aprobaciones pendientes |
+|---|---|---|---|---|
+| Food / OC madre | Sebastián Basconcelos | Marcelo Cingolani | Sin confirmar | Jefatura, agenda y aceptación del dueño |
+| Perecederos | Roxana Frutos | Darwin Leon | Sin confirmar | Jefatura, agenda y aceptación del dueño |
+| Carnes | Facundo Toledo | Cristian Escudero | Sin confirmar | Jefatura, agenda y aceptación del dueño |
+| No Comestibles | Liliana D'Amico | Carolina Tavernisse | Confirmado | Jefatura, agenda y aceptación del dueño |
+| Perfumería y Limpieza | Camila Klipauka | Romina Garfi | Sin confirmar | Jefatura, agenda y aceptación del dueño |
+| Barrio | Paloma Romero | «Rodrigo xxxx», identidad por completar | Sin confirmar | Identidad del suplente, jefatura, agenda y aceptación del dueño |
+
+Las seis filas proponen **6 h/semana de titular y 4 h/semana de suplente**. En todas siguen vacíos `H` (jefatura), `K` (ventanas de agenda), `M–N` (aceptación de jefatura/fecha) y `P` (dueño nominal); `Q` sigue «Sin confirmar». Aunque `L13` dice «Confirmado», **M05 No Comestibles todavía no reúne el compromiso nominal completo**. No multiplicar las horas de una persona que aparezca también en M04 u otro frente.
+
+Las diferencias de titular/suplente frente a `Matriz circuitos` afectan especialmente **C04, C06 y C08**. También M04 continúa agrupado y no replica las seis filas M05. Registrar qué rol corresponde a compra/forecast, cuál a OC/autorización y quién acepta el circuito integral antes de modificar otras hojas o presentar las parejas como definitivas.
+
 ## Circuitos iniciales
 
 | ID | Circuito / sector | Titular | Suplente |

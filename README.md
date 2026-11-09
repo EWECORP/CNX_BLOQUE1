@@ -1,10 +1,16 @@
 # DIARCO · Implementación Bloque 1
 
+## Reunión preliminar de migración · martes 10/11/2026
+
+La [presentación estratégica editable v1.1](outputs/20261109/DIARCO_Connexa_Migracion_Reunion_Referentes_20261110_v1.1.pptx) muestra el flujo SGM → convivencia → Connexa, el alcance B1/B2, las etapas y gates, las asignaciones M05 por frente, el Gantt tentativo y el pedido de compromiso. Usar junto con el [guion oral y pedido para una IA de presentaciones](documentacion/13_guion_y_prompt_reunion_migracion_20261110.md) y el [guion priorizado para cargar la planilla y obtener compromisos](documentacion/14_guion_carga_planilla_y_compromisos_20261110.md). Las asignaciones del Excel siguen como propuestas hasta registrar jefatura, agenda y aceptación de dueño por fila.
+
 ## Inicio con referentes · martes 10/11/2026
 
-La [presentación para conducir el inicio del despliegue](outputs/20261107/DIARCO_Bloque1_Inicio_Referentes_20261110_v1.0.pptx) se acompaña con el [guion y acta de la reunión](documentacion/10_reunion_inicio_referentes_20261110.md), la [agenda repetible de capacitación y matriz de usuarios, roles y autorizadores](documentacion/11_capacitacion_usuarios_y_accesos.md) y la [guía para elegir tres proveedores, ejecutar pruebas y registrar evidencia](documentacion/12_lote_pruebas_y_evidencia_referentes.md).
+La [presentación para conducir el inicio del despliegue, v1.2](outputs/20261107/DIARCO_Bloque1_Inicio_Referentes_20261110_v1.2.pptx) se acompaña con el [guion y acta de la reunión](documentacion/10_reunion_inicio_referentes_20261110.md), la [agenda repetible de capacitación y matriz de usuarios, roles y autorizadores](documentacion/11_capacitacion_usuarios_y_accesos.md) y la [guía para elegir tres proveedores, ejecutar pruebas y registrar evidencia](documentacion/12_lote_pruebas_y_evidencia_referentes.md).
 
-El objetivo de planificación es disponer técnicamente de los módulos acordados en Producción alrededor del 17/11. Cada circuito se habilita de forma gradual tras accesos aprobados, capacitación, pruebas, paralelo y decisión documentada. Durante la convivencia, SGM conserva stock y pendientes oficiales y recibe las operaciones Connexa habilitadas mediante el contrato de integración certificado. La referencia anterior al 04/11 describe el objetivo de disponibilidad temprana; no acredita que el circuito ya esté autorizado a operar.
+**Revisión de minutas al 09/11:** la [síntesis actualizada](documentacion/06_minutas_y_preparacion_paralelo.md) incorpora preparación de listas y permisos para C07, revisión del modelo de surtido C02 y prueba del contrato SGM–Valkimia para C14. El [Gantt](documentacion/09_gantt_integrado_tentativo_bloque1.md) conserva fechas tentativas para C07 y deja C02/C14 sin UAT fechada hasta validar sus dependencias. La [trazabilidad de fuentes](documentacion/05_fuentes_y_supuestos.md) distingue lo conversado de lo aprobado.
+
+El objetivo de planificación es disponer técnicamente de los módulos acordados en Producción alrededor del 17/11. El piloto puede iniciar un paralelo productivo **controlado** después de G1 y autorización acotada; la expansión requiere dos ciclos conciliados, aceptación G2 y decisión G3. Durante la convivencia, SGM conserva stock y pendientes oficiales y recibe las operaciones Connexa habilitadas mediante el contrato de integración certificado. La referencia anterior al 04/11 describe el objetivo de disponibilidad temprana; no acredita que el circuito ya esté autorizado a operar.
 
 ## Actualización operativa del 05/11/2026
 

@@ -7,7 +7,7 @@ const workspaceDir = 'C:/PROYECTOS/ETL/CNX_BLOQUE1';
 const skillDir = 'C:/Users/eduar/.codex/plugins/cache/openai-primary-runtime/presentations/26.1105.12137/skills/presentations';
 const buildDir = path.join(workspaceDir, '.build/kickoff_20261110');
 const outputDir = path.join(workspaceDir, 'outputs/20261107');
-const finalPath = path.join(outputDir, 'DIARCO_Bloque1_Inicio_Referentes_20261110_v1.0.pptx');
+const finalPath = path.join(outputDir, 'DIARCO_Bloque1_Inicio_Referentes_20261110_v1.2.pptx');
 const navy = '#17365D';
 const teal = '#007A87';
 const ink = '#18334F';
@@ -97,14 +97,14 @@ rows('Primera etapa: aprender y preparar', [
 rows('Segunda etapa: probar y operar', [
   ['5. UAT asistida', 'DIARCO ejecuta casos con esperado aprobado. Zeetrex acompaña. Cada resultado conserva versión, dato, documento y evidencia.'],
   ['6. Desvío y reprueba', 'El referente informa el error el mismo día. Zeetrex corrige. DIARCO repite el caso con una ejecución nueva.'],
-  ['7. Paralelo y aceptación', 'Comparamos con SGM durante ciclos reales. El dueño acepta el circuito probado; la habilitación productiva se decide por población.'],
+  ['7. Aceptar y pasar al paralelo', 'El dueño acepta el piloto probado en TEST. Después comparamos ciclos reales con SGM; cada población requiere su propia habilitación.'],
 ], 'Gates G1-G4: documentacion/02_metodo_gobierno_y_soporte.md');
 
 rows('Capacitación con dos horarios', [
   ['Inicio de referentes', 'Martes 10/11. Material y segunda instancia de preguntas para quienes no puedan asistir por el feriado regional.'],
   ['Base común y TEST', 'Jueves 12/11, 10:00. Repetición viernes 13/11, 15:00. Cada persona asiste a una de las dos.'],
   ['Compras, listas y OC', 'Lunes 16/11, 10:00. Repetición jueves 19/11, 15:00. Taller sectorial después de recibir los datos.'],
-  ['Operación y surtido', 'Recepción/stock: 24 o 26/11. Surtido/PDD: 01 o 03/12. C14 se agenda cuando exista solución acordada.'],
+  ['Operación, surtido y PDD', 'Recepción/stock: 24 o 26/11. Surtido: taller de diseño Menaje 01 o 03/12, sin UAT fechada. C14 depende de una prueba técnica.'],
 ], 'Agenda propuesta: documentacion/11_capacitacion_usuarios_y_accesos.md. Feriado 09-11/11: https://www.argentina.gob.ar/normativa/nacional/norma-430580/texto');
 
 columns('Tres proveedores para compras', [
@@ -119,6 +119,12 @@ rows('Qué entrega cada referente', [
   ['Documento de referencia', 'Una OC SGM real con líneas y estado, o el documento equivalente de recepción, inventario o distribución.'],
   ['Esperado y aprobación', 'Resultado esperado por paso, dueño que lo aprueba, tolerancia y excepción que se probará.'],
 ], 'La ficha completa está en documentacion/12_lote_pruebas_y_evidencia_referentes.md.');
+
+rows('Antes de probar No Comestibles', [
+  ['Listas y datos de TEST', 'Nivelar maestros. Mostrar la lista vigente aunque exista una nueva versión pendiente. Probar importación y condiciones habituales.'],
+  ['Permisos y OC', 'Comprador y aprobador completan sus tareas. La OC se valoriza por línea y llega una sola vez a SGM.'],
+  ['Observaciones abiertas', 'Revisar D-01 a D-08 con dueño, ticket y reprueba. El dueño de C07 acepta el piloto antes del paralelo productivo.'],
+], 'Fuentes: minutas S37 y S39, documentacion/06_minutas_y_preparacion_paralelo.md; preflight de C07 en documentacion/08_reunion_y_cronograma_piloto_no_comestibles.md.');
 
 rows('Usuarios, roles y autorizadores', [
   ['Nómina nominal', 'Nombre, correo/legajo, jefatura, circuito y alcance por proveedor, artículo, sucursal o CD.'],
@@ -148,16 +154,22 @@ rows('Convivencia con SGM', [
   ['Control diario', 'Conciliar identificadores, estados, cantidades y valores. Registrar fallas y activar contingencia acordada.'],
 ], 'Fuentes: documentacion/02_metodo_gobierno_y_soporte.md y 06_minutas_y_preparacion_paralelo.md.');
 
+rows('Dos frentes con diseño pendiente', [
+  ['C02 · surtido', 'DIARCO pide grupos de sucursales por categoría vinculados a listas de artículos. Menaje será el ejemplo para validar el modelo.'],
+  ['C14 · Valkimia', 'Los equipos documentarán y probarán el intercambio actual SGM–Valkimia. Faltan VPN, contrato, TEST y retorno de estados.'],
+  ['Próxima decisión', 'C02 y C14 fijarán UAT y operación después de validar sus diseños y pruebas. No bloquean la preparación de compra C07.'],
+], 'Fuentes: minutas S38, S40 y S41, documentacion/06_minutas_y_preparacion_paralelo.md.');
+
 rows('Producción gradual', [
   ['Alrededor del 17/11', 'Objetivo propuesto de disponibilidad técnica de los módulos acordados, una semana después de esta reunión.'],
-  ['Ingreso por circuito', 'Cada población necesita permisos productivos aprobados, formación, UAT, dos ciclos y decisión de habilitación.'],
-  ['Expansión', 'Se amplían proveedores, sucursales y usuarios con evidencia. El dueño funcional acepta; sponsor e IT autorizan el gate operativo.'],
+  ['Piloto controlado', 'Después de G1 y con permisos aprobados, la población piloto puede comparar ciclos reales con SGM en Producción.'],
+  ['Expansión', 'Tras dos ciclos conciliados y G2, sponsor e IT deciden G3 para ampliar proveedores, usuarios o sucursales.'],
 ], 'Fuente: documentacion/02_metodo_gobierno_y_soporte.md y 10_reunion_inicio_referentes_20261110.md. La fecha es supuesto de planificación.');
 
 rows('Próximos pasos del equipo', [
   ['10/11 · referentes y dueños', 'Confirmar circuito, titular/suplente, dueños de aceptación y responsables de la nómina de usuarios.'],
   ['12–16/11 · DIARCO', 'Asistir a una sesión común, entregar lote de datos, reglas, OC de referencia y roles/autorizadores.'],
-  ['17–24/11 · DIARCO + Zeetrex', 'Practicar, comprobar accesos, ejecutar primeros casos C07 y registrar diferencias con SGM.'],
+  ['18–25/11 · DIARCO + Zeetrex', 'Practicar, comprobar accesos, ejecutar casos C07 en TEST y registrar diferencias con SGM.'],
   ['Cada jueves · líderes', 'Revisar datos pendientes, defectos, capacidad, siguiente prueba y gate por circuito.'],
 ], 'Calendario detallado: documentacion/09_gantt_integrado_tentativo_bloque1.md. El 10/11 es feriado regional; 09/11 nacional.');
 
@@ -185,6 +197,6 @@ const result = await finalizePresentation({
   requiredNativeTableOwnerSlides: [],
   fontPolicy: {basis: 'design', families: [font]},
   verifyArtifactToolImport: true,
-  receiptPath: path.join(buildDir, 'validation-v1.0.json'),
+  receiptPath: path.join(buildDir, 'validation-v1.2.json'),
 });
 console.log(JSON.stringify({slides: deck.slides.items.length, finalPath, result}, null, 2));

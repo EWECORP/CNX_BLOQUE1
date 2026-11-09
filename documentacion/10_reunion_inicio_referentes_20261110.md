@@ -20,13 +20,14 @@
 2. **Lote de datos.** En compras: tres proveedores con código SGM, listas, SKU, sucursales, condiciones y OC de referencia. En recepción/inventarios/distribución se eligen documentos, sitios y excepciones representativas equivalentes.
 3. **Usuarios y accesos.** El dueño DIARCO aprueba roles, alcance y autorizadores; IT verifica identidad y segregación. Zeetrex/administrador configura en TEST y conserva evidencia de acceso. Producción se prepara por separado.
 4. **Taller y práctica.** Cada titular y suplente ejecuta un caso normal y una excepción con apoyo Zeetrex. La asistencia sola no acredita aptitud.
+   Antes del taller de compras, Zeetrex y DIARCO comprueban que TEST tiene maestro y listas coherentes, que la lista vigente se consulta aunque exista una nueva pendiente, y que el comprador y aprobador ven sus funciones. Las observaciones D-01–D-08 de la [minuta del 06/11](06_minutas_y_preparacion_paralelo.md) se revisan con dueño y ticket.
 5. **UAT.** Usuario DIARCO opera, compara con esperado aprobado y registra resultado, versión, datos/corte y evidencia. Defecto o diferencia se registra de inmediato con impacto y responsable; Zeetrex corrige y DIARCO reprueba con una nueva ejecución.
-6. **Paralelo y convivencia.** Observar dos ciclos completos, incluido uno con excepción, según frecuencia real. DIARCO/SGM sigue siendo la referencia vigente para stock y pendientes. El circuito tiene un solo emisor de OC al proveedor y se concilia de extremo a extremo.
+6. **Paralelo y convivencia.** Comienza después de la aceptación del piloto en TEST para la población definida. Observar dos ciclos completos, incluido uno con excepción, según frecuencia real. DIARCO/SGM sigue siendo la referencia vigente para stock y pendientes. El circuito tiene un solo emisor de OC al proveedor y se concilia de extremo a extremo.
 7. **Decisión por circuito.** El dueño funcional acepta el alcance probado. Sponsor, IT y líderes autorizan luego cada habilitación o expansión en Producción. L1 DIARCO y L2 Zeetrex quedan identificados.
 
 ## Mensaje de producción
 
-**Objetivo propuesto:** tener la plataforma y los módulos acordados técnicamente disponibles en Producción **alrededor del 17/11**, una semana después de la reunión. Esa fecha no convierte a todos los usuarios en operadores productivos. Cada población entra gradualmente cuando tenga permisos aprobados, datos conciliados, capacitación, G1/G2 y decisión G3 según el [método](02_metodo_gobierno_y_soporte.md). El [Gantt integrado](09_gantt_integrado_tentativo_bloque1.md) sigue siendo escenario a rebaselinar con el estado real del 10/11.
+**Objetivo propuesto:** tener la plataforma y los módulos acordados técnicamente disponibles en Producción **alrededor del 17/11**, una semana después de la reunión. Esa fecha no habilita usuarios por sí sola. El piloto puede entrar a un **paralelo productivo controlado** después de G1, con permisos aprobados, datos conciliados, capacitación, integración certificada, soporte y autorización limitada a su población. Tras dos ciclos y aceptación G2, sponsor e IT deciden G3 para ampliar proveedores, usuarios o sitios según el [método](02_metodo_gobierno_y_soporte.md). El [Gantt integrado](09_gantt_integrado_tentativo_bloque1.md) sigue siendo escenario a rebaselinar con el estado real del 10/11.
 
 Durante la convivencia, el diseño rector mantiene stock y pendientes oficiales en SGM. Connexa origina y autoriza las OC de los circuitos habilitados; SGM las incorpora para recepción y comunicación al proveedor **una vez certificado el contrato y el emisor único**. No habilitar doble escritura ni doble envío. Para cada dominio se documentan escritor, lector, fecha de traspaso, conciliación, monitoreo y contingencia.
 
@@ -41,6 +42,9 @@ Durante la convivencia, el diseño rector mantiene stock y pendientes oficiales 
 | Sesión común elegida y taller de práctica reservado | [ ] |
 | Dueño del acceso TEST y fecha de comprobación | [ ] |
 | Canal de defectos, responsable de triage y tiempo de primera respuesta | [ ] |
+| Estado de listas vigentes, permisos de aprobación y observaciones D-01–D-08 del piloto | [ ] |
+| Dueño y fecha del ejemplo Menaje para validar C02, sin fecha de UAT todavía | [ ] |
+| Responsable de VPN, contrato, TEST y prueba técnica SGM–Valkimia para C14 | [ ] |
 | Próxima revisión de UAT y gate | [ ] |
 
 La minuta debe registrar ausentes, material enviado, responsables de seguimiento y asuntos no decididos. No inferir aprobación por asistencia o silencio.

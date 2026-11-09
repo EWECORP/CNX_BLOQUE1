@@ -1,6 +1,6 @@
 # Fuentes, supuestos y límites de la propuesta
 
-Versión 0.5. Corte documental 30/10/2026. No se consultaron bases productivas ni se ejecutaron corridas.
+Versión 0.6. Corte documental 09/11/2026. No se consultaron bases productivas ni se ejecutaron corridas.
 
 ## Trazabilidad
 
@@ -25,6 +25,11 @@ Versión 0.5. Corte documental 30/10/2026. No se consultaron bases productivas n
 | S34 | [Minuta precios de compra](https://drive.google.com/file/d/1Kv7_vKDIryvGvhjrAVbCJxt941vG64a_/view), 27/10 | Listas/reglas/vigencias, importación y pruebas de valorización. Impuestos y costos aún abiertos |
 | S35 | [Minuta Javier Vilela](https://drive.google.com/file/d/1GT2yxSq5Q0ke2VfPFcdCfeNNIlH541dQ/view) y [transcripción original «Revisión Plan de Proyecto y Clusters y Surtido»](https://drive.google.com/file/d/18XnLGtnxrzEdNg3MWw66tdf-cyWvKZih/view), misma reunión del 26/10 | Lo llama sponsor del proyecto. Se debe conciliar esa función con el Gobierno propuesto; no sustituir nombres por inferencia |
 | S36 | [Minuta técnica Valkimia](https://drive.google.com/file/d/1vJf2eMuDx_mCE9q9ae8kTVQFCrJ4NVgn/view), 28/10 según nombre del archivo | Web se eleva para evaluación, sin aprobación. Excel/carga manual no validada para escala DIARCO. Fecha interna de transcripción discrepante |
+| S37 | [Liliana/Carolina: despliegue y listas](https://drive.google.com/file/d/1XxJUfdPCF28RJBc1AVxyRclDMM4QC11k/view), título 06/11 | Minuta para validar. Datos TEST, condiciones por proveedor/rubro, lista vigente, permisos y observaciones D-01–D-08; no acredita que estén resueltas. Cabecera de transcripción con año 2027 discrepante |
+| S38 | [Liliana/Carolina: clusters y surtido](https://drive.google.com/file/d/11MsfFkkqsJaPNi_-JweOaUDsXq2vCDfL/view), título 06/11 | Modelo por categoría y ejemplo Menaje solicitados. Es análisis funcional, no diseño aprobado ni aceptación C02; cabecera con año discrepante |
+| S39 | [Reunión interna de desarrollo Connexa](https://drive.google.com/file/d/1HFwTuKfdv_PB0kPVNdSG-VBgVYQyKTkO/view), 06/11 | Avances OC y scripts iniciales de listas; validación integral, sincronización recurrente, retorno Valkimia y volumen pendientes. «Martes 10» es objetivo técnico incompleto, no evidencia de entrega |
+| S40 | [Valkimia: alternativa técnica](https://drive.google.com/file/d/1piKBTjMIY8OBoOJp2jTMHXci5TpmzvTv/view), título 06/11 | Estudiar reproducción de interfaz SGM, retorno a SGM y recuperación Connexa. Viabilidad y fecha sin aprobar; cabecera de transcripción con año discrepante |
+| S41 | [Valkimia: reunión de dirección](https://drive.google.com/file/d/18oOl6nIVRCw5PGZ6dDsYubBVi8FaqtOg/view), título 06/11 | Priorizó documentación y prueba del contrato existente, con VPN/TEST pendientes. Entrega «martes y miércoles» sin fechas absolutas confirmadas; no fija puesta en marcha |
 
 Rutas locales relativas al directorio de este documento. Las fuentes locales del framework están fuera de CNX_BLOQUE1; no se modificaron.
 
@@ -49,6 +54,9 @@ Rutas locales relativas al directorio de este documento. Las fuentes locales del
 - Se dispone de alcance macro B1 según S10 y siete registros en Gobierno tras S31. Siguen pendientes clasificación fina de GAPS, aceptación de funciones del proyecto, líder operativo DIARCO, responsables operativos de IT y mesa, dueños, referentes, suplentes, dedicaciones, volumen piloto, cobertura de soporte y resultados de aceptación. Los nombres de S32 son interlocutores, no titulares designados.
 - S35 menciona a Javier Vilela como sponsor del proyecto, mientras Gobierno propone a Pablo Bertolissio como sponsor operativo. La estructura de patrocinio y las facultades de cada uno deben quedar en el acta; ninguna minuta sustituye esa decisión.
 - S36 reduce la confianza en usar Excel como contingencia de Valkimia a escala DIARCO. La viabilidad de M09 en la primera oleada depende de una alternativa aprobada, contrato de datos y prueba con SGM/Valkimia.
+- S37–S39 sitúan listas vigentes, condiciones comerciales y permisos como dependencias concretas del primer piloto. El avance de desarrollo informado no constituye aceptación de C07 ni prueba de disponibilidad productiva. La aceptación del piloto precede al paralelo productivo controlado.
+- S38 cambia la hipótesis de diseño de C02: grupos por categoría vinculados con listas de artículos, a validar con Menaje. Su UAT se replanifica después de aprobar el modelo y la publicación; no se condiciona C07 a esa clusterización.
+- S40–S41 seleccionan la interfaz actual SGM–Valkimia **para documentar y probar**, no para operar todavía. Confirmar contrato, VPN, TEST, retorno y fechas antes de fijar UAT C14.
 
 ## Uso de estimaciones
 
@@ -58,7 +66,7 @@ Los dos ciclos de piloto, cinco días de estabilidad, 100% de casos críticos y 
 
 ## Control de versión
 
-0.1, 29/10/2026: primera propuesta y kit editable. 0.2, 29/10/2026: minutas recientes y controles del paralelo. 0.3, 30/10/2026: correspondencia documental con Gobierno y Asignaciones editadas por el usuario. 0.4, 30/10/2026: RACI CIO/CMZ, tareas WBS, capacidad, formación, decisión D14 y riesgos R12/R13. 0.5, 30/10/2026: integración documental de S33–S36, sin atribuirles aprobación de alcance ni cierre técnico. Los cambios posteriores deben registrar autor, versión, fuente/decisión y pruebas afectadas. Las aprobaciones se registrarán por persona autorizada; no se infieren por presencia en una reunión ni por recepción del material.
+0.1, 29/10/2026: primera propuesta y kit editable. 0.2, 29/10/2026: minutas recientes y controles del paralelo. 0.3, 30/10/2026: correspondencia documental con Gobierno y Asignaciones editadas por el usuario. 0.4, 30/10/2026: RACI CIO/CMZ, tareas WBS, capacidad, formación, decisión D14 y riesgos R12/R13. 0.5, 30/10/2026: integración documental de S33–S36. 0.6, 09/11/2026: integración de S37–S41 y replanificación condicional de C02/C07/C14, sin atribuirles aprobación de alcance ni cierre técnico. Los cambios posteriores deben registrar autor, versión, fuente/decisión y pruebas afectadas. Las aprobaciones se registrarán por persona autorizada; no se infieren por presencia en una reunión ni por recepción del material.
 
 ## Fuentes incorporadas desde IMPLEMENTACION
 
