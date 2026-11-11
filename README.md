@@ -1,5 +1,11 @@
 # DIARCO · Implementación Bloque 1
 
+## Reunión de titulares y suplentes · miércoles 11/11/2026, 14:00
+
+La [minuta de confirmación del 10/11](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view) designó a **Eduardo Mañe** líder de implementación DIARCO. La primera capacitación comienza el **jueves 12/11 a las 10:00**. Para mañana, usar la [hoja instructiva y plantillas operativas](documentacion/kit_referentes_20261111/00_hoja_instructiva.md), las [fichas de los 15 frentes](documentacion/kit_referentes_20261111/06_fichas_por_frente.md) y la [planilla de trabajo con 135 tareas](outputs/20261110/DIARCO_Kit_Referentes_Trabajo_por_Frente_20261111.xlsx).
+
+El **plan operativo actualizado** es [v0.6 al 10/11](outputs/20261110/DIARCO_Bloque1_Plan_v0.6_20261110.xlsx), derivado de la v0.5 editada por el usuario. Conserva sus designaciones y compromisos; registra al líder DIARCO, deja D02/D03/D14 en análisis y corrige referencias de circuito afectadas por la apertura de M05. `Gates` continúa pendiente: faltan ratificación individual, dueños funcionales, pruebas y evidencia. [Síntesis de la minuta](documentacion/06_minutas_y_preparacion_paralelo.md).
+
 ## Reunión preliminar de migración · martes 10/11/2026
 
 La [presentación estratégica editable v1.1](outputs/20261109/DIARCO_Connexa_Migracion_Reunion_Referentes_20261110_v1.1.pptx) muestra el flujo SGM → convivencia → Connexa, el alcance B1/B2, las etapas y gates, las asignaciones M05 por frente, el Gantt tentativo y el pedido de compromiso. Usar junto con el [guion oral y pedido para una IA de presentaciones](documentacion/13_guion_y_prompt_reunion_migracion_20261110.md) y el [guion priorizado para cargar la planilla y obtener compromisos](documentacion/14_guion_carga_planilla_y_compromisos_20261110.md). Las asignaciones del Excel siguen como propuestas hasta registrar jefatura, agenda y aceptación de dueño por fila.
@@ -20,7 +26,7 @@ Para la primera reunión con el sector, usar el [pedido de información por prov
 
 El [Gantt integrado tentativo de Bloque 1](documentacion/09_gantt_integrado_tentativo_bloque1.md) distribuye formación, entrega de datos, UAT, paralelo y aceptación entre los 15 circuitos. Considera los feriados de noviembre/diciembre y la capacidad compartida de los referentes; sus fechas son hipótesis hasta confirmar agenda, estado técnico y gates.
 
-El **libro vigente es [DIARCO_Bloque1_Plan_v0.5.xlsx](outputs/20261105/DIARCO_Bloque1_Plan_v0.5.xlsx)**, derivado de la v0.4 editada por el usuario. Abrir **Matriz circuitos** para consultar los 15 circuitos por sector/formato, las parejas titular/suplente y sus vínculos con capacitación, casos, ejecuciones y aceptación. [Guía y aclaraciones de la matriz](documentacion/07_matriz_sector_circuito.md).
+El libro v0.5 [DIARCO_Bloque1_Plan_v0.5.xlsx](outputs/20261105/DIARCO_Bloque1_Plan_v0.5.xlsx) es la base histórica editada por el usuario; su continuación es la v0.6 enlazada arriba. Abrir **Matriz circuitos** para consultar los 15 circuitos por sector/formato y sus vínculos con capacitación, casos, ejecuciones y aceptación. [Guía y aclaraciones de la matriz](documentacion/07_matriz_sector_circuito.md).
 
 La v0.5 conserva las 14 hojas anteriores y agrega ocho: piloto, guía, matriz, equipo, formación por circuito, casos por circuito, ejecuciones y aceptación. Los 75 casos nuevos son propuestas sin ejecutar. Las barras `/` se interpretan como titular / suplente y los paréntesis como área; se conservan anotaciones adicionales por precisar. Las horas ya cargadas no se multiplican por circuito. Las referencias siguientes a la v0.4, la reunión del 02/11 y el objetivo del 04/11 describen la base histórica; no acreditan habilitación ni cumplimiento posterior.
 
@@ -32,7 +38,7 @@ El objetivo es acordar un equipo DIARCO que implemente y luego sostenga cada pro
 
 1. [Propuesta ejecutiva y decisiones de Dirección](documentacion/01_estrategia_y_compromiso_direccion.md): argumento, alcance, dedicación propuesta, secuencia y agenda de decisión.
 2. Presentación editable, actualizada con Gobierno, interlocutores y WBS vigente, en `outputs/20261029/DIARCO_Bloque1_Direccion_v0.4.pptx`.
-3. Plan base v0.4 en `outputs/20261029/DIARCO_Bloque1_Plan_v0.4.xlsx`: WBS, asignaciones, RACI, GAPS, UAT, decisiones y riesgos. La continuación operativa vigente es la v0.5 enlazada arriba; ninguna de las dos acredita avances reales sin completar sus registros.
+3. Plan base v0.4 en `outputs/20261029/DIARCO_Bloque1_Plan_v0.4.xlsx`: WBS, asignaciones, RACI, GAPS, UAT, decisiones y riesgos. La continuación operativa vigente es la v0.6 enlazada arriba; los registros sin evidencia no acreditan pruebas ni aceptación.
 
 ## Kit operativo
 

@@ -15,7 +15,7 @@ Los IDs del libro son estables. Para repetir UAT, duplicar la fila con un ID de 
 | Código | Rol | Facultad principal |
 |---|---|---|
 | SP | Sponsor DIARCO | Asigna recursos y decide gates globales y excepciones de alcance |
-| LD | Líder implementación DIARCO | Coordina personas, compromisos y bloqueos internos |
+| LD | Líder implementación DIARCO · Eduardo Mañe, confirmado 10/11 | Coordina personas, compromisos y bloqueos internos; suplencia y facultad de gates por precisar |
 | DP | Dueño de proceso | Decide reglas y acepta funcionalmente su módulo |
 | RF | Referente DIARCO | Ejecuta preparación/pruebas, enseña y atiende L1 funcional |
 | US | Usuario piloto | Opera y reporta dificultades con evidencia |
@@ -32,7 +32,7 @@ R ejecuta; A responde por el resultado y decide su aceptación; C aporta antes d
 
 DP y RF se resuelven al nombre del módulo de la fila. No son un único dueño o referente para todo DIARCO. La hoja Asignaciones contiene titular, suplente y jefatura que libera la capacidad. Una misma persona no deberá aprobar una operación si la segregación acordada lo impide.
 
-La hoja Gobierno del 30/10 propone a Eduardo Ettlin como LZ, a Pablo Duplessy como CMZ y a Alejandro Ledesma / Eduardo Ettlin para ZT. El titular técnico y su respaldo se acuerdan por circuito. Guillermo Añaños figura como CIO DIARCO provisto por Zeetrex y debe facilitar la asignación de IT DIARCO; el responsable operativo IT y la mesa de ayuda siguen por nombrar. **CIO y CMZ ya tienen columnas en la RACI v0.4**. CMZ coordina formación y adopción, mientras el DP conserva la aceptación funcional. La RACI sigue propuesta hasta que se acuerden nombres, horas y facultades en G0.
+La [minuta del 10/11](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view) confirma a **Eduardo Mañe como LD**. La hoja Gobierno editada por el usuario marca a Eduardo Ettlin como LZ, a Pablo Duplessy como CMZ y a Alejandro Ledesma / Eduardo Ettlin para ZT. El titular técnico y su respaldo se acuerdan por circuito. Guillermo Añaños figura como CIO DIARCO provisto por Zeetrex y debe facilitar la asignación de IT DIARCO; el responsable operativo IT y la mesa de ayuda siguen por nombrar. **CIO y CMZ ya tienen columnas en la RACI v0.4**. CMZ coordina formación y adopción, mientras el DP conserva la aceptación funcional. Las facultades, horas y suplencias por frente se ratifican en la reunión del 11/11; Gobierno confirmado no equivale a G0 aprobado.
 
 ## Cadencia y decisiones
 

@@ -1,6 +1,6 @@
 # Plantillas operativas
 
-Versión 0.5 propuesta, actualizada el 30/10 con las minutas S33–S36. Completar las fichas en el repositorio acordado y enlazarlas desde el libro. Una plantilla vacía no representa una aprobación.
+Versión 0.6 de trabajo, actualizada con la [minuta de confirmación del 10/11](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view). Completar las fichas en el repositorio acordado y enlazarlas desde el libro. Una plantilla vacía no representa una aprobación. Para la reunión del **11/11 a las 14:00** se preparó un [kit directamente rellenable](kit_referentes_20261111/00_hoja_instructiva.md), con compromiso, lote, ejecución, aceptación y control de capacitación; la primera sesión comienza el **12/11 a las 10:00**.
 
 ## T01 · Acta de compromiso de Dirección
 
@@ -10,7 +10,7 @@ Versión 0.5 propuesta, actualizada el 30/10 con las minutas S33–S36. Completa
 |---|---|---|---|
 | Sponsor y suplente | [completar] | [completar] | [completar] |
 | Patrocinio Javier Vilela / Pablo Bertolissio | [facultades de cada uno y escalación] | [completar] | [completar] |
-| Líder implementación DIARCO | [completar] | [completar] | [completar] |
+| Líder implementación DIARCO | Eduardo Mañe, confirmado el 10/11; facultades y suplente por precisar | [completar] | [minuta y aceptación de alcance] |
 | Líder Zeetrex | [completar] | [completar] | [completar] |
 | Gestión del Cambio Zeetrex | [nombre, agenda y alcance] | [completar] | [completar] |
 | Enlace de Dirección para IT DIARCO | [nombre y autoridad para liberar recursos] | [completar] | [completar] |
@@ -136,3 +136,7 @@ Ejemplo de fila a completar, sin anticipar la decisión: OC aprobada / generaci�
 | Valkimia Web | [alcance técnico y operativo] | [pedidos, remitos, stock, cierres] | [completar] | [completar] |
 
 **Excel/carga manual:** [evidencia de disponibilidad y capacidad para volumen DIARCO o descartada]. **Estados de retorno obligatorios:** despachado; preparado sin despachar; no preparado. **Excepciones:** redespacho, cambio de destino/pallet/etiqueta, reintento. **Primera oleada:** [M09 incluido sólo con contrato y prueba / diferido]. **Pendientes:** [dueño y fecha].
+
+## T16 · Encargo de trabajo por frente y control de material
+
+Usar la [ficha por circuito](kit_referentes_20261111/06_fichas_por_frente.md) junto con `Frentes` y `Tareas` de la [planilla de trabajo](../outputs/20261110/DIARCO_Kit_Referentes_Trabajo_por_Frente_20261111.xlsx). El líder DIARCO verifica nombre, jefatura, horas y fecha; el referente identifica datos y casos; Pablo Duplessy coordina la entrega y práctica del material; el equipo técnico conserva autoría y versión; el dueño funcional valida reglas y aceptación. La [plantilla de control de capacitación](kit_referentes_20261111/05_control_capacitacion.md) separa material listo, asistencia y aptitud demostrada.

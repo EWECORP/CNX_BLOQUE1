@@ -1,10 +1,16 @@
 # Matriz de sectores, circuitos y habilitación
 
-Actualizada el 05/11/2026. Libro operativo: [DIARCO_Bloque1_Plan_v0.5.xlsx](../outputs/20261105/DIARCO_Bloque1_Plan_v0.5.xlsx).
+Actualizada el 10/11/2026. Libro operativo: [plan v0.6](../outputs/20261110/DIARCO_Bloque1_Plan_v0.6_20261110.xlsx). La descripción y tabla del 05/11 se conservan como antecedente; para convocatorias usar `Asignaciones` y ratificar cada pareja en la reunión del 11/11.
+
+## Foto posterior a la confirmación del 10/11
+
+La [minuta de referentes](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view) confirma a **Eduardo Mañe como líder DIARCO**, pero no convierte toda mención oral en asignación individual ratificada. En el Excel editado por el usuario, las seis filas M05 ahora tienen `L=Confirmado`, `H=Pablo Bertolissio` y `K=10:00 a 16:00`; siguen vacíos `M/N/P` y `Q=Sin confirmar`, por lo que `O` permanece en **Falta compromiso nominal**. Confirmar jefatura operativa, ventanas concretas, dueño funcional y facultad. Barrio cambió el suplente propuesto a **Nahuel**, aún sin apellido. M01/M03/M07/M10 también recibieron nombres adicionales, que deben separarse por función.
+
+`Equipo circuitos!H5:H19` del plan v0.6 corrige las referencias textuales desplazadas por las filas M05; `C03` refleja ahora a Christian Escudero como suplente propuesto. Las parejas combinadas M04/M05 de C04–C08, el dueño de C09 y las funciones de planos, toma y Auditoría todavía requieren ratificación. La [planilla de trabajo por frente](../outputs/20261110/DIARCO_Kit_Referentes_Trabajo_por_Frente_20261111.xlsx) explicita esos pendientes.
 
 La matriz deriva del libro v0.4 con las asignaciones editadas por el usuario. La barra `/` se interpreta como titular / suplente y los paréntesis como área o sector, según la aclaración del usuario. Los casos son propuestas para acordar con los referentes; no acreditan ejecución, capacitación completada ni aceptación. No se asignan fechas de producción nuevas ni se presume cumplido el hito anterior del 04/11.
 
-## Actualización de Asignaciones M05 · 09/11/2026
+## Antecedente · actualización de Asignaciones M05 del 09/11/2026
 
 El usuario abrió **una fila M05 por frente** en `Asignaciones` del [libro v0.5](../outputs/20261105/DIARCO_Bloque1_Plan_v0.5.xlsx). Para la reunión del 10/11, esa hoja es la referencia más reciente **para M05**. La matriz de circuitos que sigue conserva la foto del 05/11 y debe conciliarse con estas filas antes de asignar la misma persona a M04, M05 y soporte del circuito.
 

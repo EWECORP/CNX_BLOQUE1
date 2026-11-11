@@ -1,6 +1,6 @@
 # Guía del referente: lote de datos, pruebas y evidencia
 
-**Preparado:** 07/11/2026. **Uso:** entregar en la inducción de cada frente. La [matriz v0.5](../outputs/20261105/DIARCO_Bloque1_Plan_v0.5.xlsx) contiene casos `CC-*`, formación, ejecuciones y aceptación. Esta guía explica qué debe traer y hacer cada referente. La [ficha más detallada de C07](08_reunion_y_cronograma_piloto_no_comestibles.md) amplía condiciones comerciales y OC.
+**Actualizada:** 10/11/2026. **Uso:** entregar en la reunión de titulares y suplentes del **11/11 a las 14:00**. El [plan v0.6](../outputs/20261110/DIARCO_Bloque1_Plan_v0.6_20261110.xlsx) contiene casos `CC-*`, formación, ejecuciones y aceptación; la [planilla de tareas por frente](../outputs/20261110/DIARCO_Kit_Referentes_Trabajo_por_Frente_20261111.xlsx) asigna responsables y fechas. Esta guía explica qué debe traer y hacer cada referente. La [hoja instructiva breve](kit_referentes_20261111/00_hoja_instructiva.md) y la [ficha más detallada de C07](08_reunion_y_cronograma_piloto_no_comestibles.md) la acompañan. La [minuta del 10/11](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view) ratificó el lote aproximado de tres proveedores por frente y la prueba del circuito completo.
 
 ## 1. Elegir la población
 

@@ -1,6 +1,6 @@
 # Capacitación, inventario de usuarios y permisos · Bloque 1
 
-**Preparado:** 07/11/2026. **Estado:** agenda y formularios propuestos; requieren confirmación de participantes, sedes, facilitadores y administrador de Connexa. El [Gantt](09_gantt_integrado_tentativo_bloque1.md) y la [matriz de circuitos](07_matriz_sector_circuito.md) contienen la secuencia y los referentes de C01–C15.
+**Actualizado:** 10/11/2026. **Estado:** reunión de titulares/suplentes convocada para **miércoles 11/11 a las 14:00** y primera capacitación para **jueves 12/11 a las 10:00** por instrucción del usuario. Participantes, sede, facilitadores y administrador de Connexa se verifican en la reunión. El [Gantt](09_gantt_integrado_tentativo_bloque1.md), el [kit de referentes](kit_referentes_20261111/00_hoja_instructiva.md) y la [matriz de circuitos](07_matriz_sector_circuito.md) contienen la secuencia.
 
 ## Agenda de capacitación para llegar a más personas
 
@@ -8,8 +8,9 @@ Cada sesión común se dicta **dos veces con el mismo contenido**. Cada persona 
 
 | Sesión | Convocados | Primera opción | Repetición | Resultado |
 | --- | --- | --- | --- | --- |
-| Inicio del despliegue | Todos los dueños, referentes, suplentes, IT y mesa | Mar 10/11, horario de reunión a confirmar | Preguntas/recuperación jue 12/11 | Acta y responsables; grabación/material para ausentes por feriado regional |
-| Base común Connexa, TEST, evidencias y soporte | Todos los usuarios piloto y autorizadores | Jue 12/11 10:00–11:30 | Vie 13/11 15:00–16:30 | Acceso TEST comprobado o ticket; primera ficha de datos solicitada |
+| Confirmación de referentes y gobierno | Dirección DIARCO y Zeetrex | Mar 10/11, realizada | Validación de acta pendiente | Eduardo Mañe confirmado LD; otras designaciones y facultades por ratificar |
+| Encuentro de titulares y suplentes | Referentes de los 15 circuitos, dueños, IT/mesa y Zeetrex según convocatoria | Mié 11/11 14:00, convocado | Recuperación para ausentes por acordar | Ratificar compromisos y entregar la hoja instructiva y planilla por frente |
+| Primera capacitación Connexa, TEST, evidencias y soporte | Personas convocadas por Pablo Duplessy y líderes | Jue 12/11 10:00, inicio informado | Vie 13/11 15:00–16:30 **propuesto**, no confirmado | Material versionado, acceso TEST o ticket y primera ficha de datos solicitada |
 | Compras, listas y OC | C03, C04–C08, aprobadores, IT/SGM | Lun 16/11 10:00–11:30 | Jue 19/11 15:00–16:30 | Flujo mostrado y set por proveedor con fecha de devolución |
 | Recepción, inventarios, stock e integración | C09–C12, C15, mesa e IT | Mar 24/11 10:00–11:30 | Jue 26/11 15:00–16:30 | Documentos/casos del circuito y responsables de conciliación |
 | Diseño de surtido por categoría y planificación | C02, C13 y compradores afectados | Mar 01/12 10:00–11:30 | Jue 03/12 15:00–16:30 | Ejemplo Menaje, reglas y publicación a validar; la sesión no fija UAT C02 |

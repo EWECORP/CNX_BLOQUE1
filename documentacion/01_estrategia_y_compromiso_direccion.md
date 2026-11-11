@@ -1,5 +1,7 @@
 # Propuesta de implementación del Bloque 1 · DIARCO
 
+**Actualización 10/11/2026:** la [minuta de confirmación de referentes](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view) designó a **Eduardo Mañe** líder de implementación DIARCO. El encuentro de titulares y suplentes está convocado para el **11/11 a las 14:00** y la primera capacitación comienza el **12/11 a las 10:00**. La propuesta histórica inferior se ejecuta ahora con el [plan v0.6](../outputs/20261110/DIARCO_Bloque1_Plan_v0.6_20261110.xlsx) y el [kit de referentes](kit_referentes_20261111/00_hoja_instructiva.md); siguen pendientes ratificación individual, dueños por circuito y gates.
+
 Versión 0.5. Estado: propuesta a revisar. Actualización: 30/10/2026 con minutas S33–S36. Presentación prevista: lunes 02/11/2026. Propietario propuesto: líder de implementación Zeetrex.
 
 ## Decisión central

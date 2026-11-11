@@ -1,6 +1,14 @@
 # Minutas recientes y preparación del paralelo
 
-Versión 0.6. Carpeta REUNIONES revisada el 09/11/2026; se integran las minutas incorporadas el 08/11 y se conserva la nómina del libro editado por el usuario. La instrucción del usuario sobre convivencia gradual prevalece sobre los cronogramas históricos. Las minutas nuevas se presentan como borradores o análisis por validar; no acreditan cumplimiento técnico ni aceptación del negocio.
+Versión 0.7. Carpeta REUNIONES revisada el 10/11/2026; se integra la confirmación de referentes y se conserva la nómina del libro editado por el usuario. La instrucción del usuario sobre convivencia gradual prevalece sobre los cronogramas históricos. Las minutas nuevas se presentan como borradores o análisis por validar; no acreditan cumplimiento técnico ni aceptación del negocio.
+
+## Confirmación de referentes · 10/11
+
+La [minuta S42](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view) confirma **Eduardo Mañe como líder de implementación DIARCO**. Registra titulares y suplentes como condición de continuidad, dedicación de referencia de 6 h/semana para titulares y 4–6 h/semana para suplentes **por precisar**, pruebas del circuito completo, capturas/comentarios de incidencias y aceptación funcional antes de extender el despliegue. Su nómina oral no permite ratificar inequívocamente cada pareja; la planilla editada por el usuario contiene más nombres y estados que deberán revisarse con las personas el **11/11 a las 14:00**. La primera capacitación está convocada para el **12/11 a las 10:00**.
+
+**Impactos por frente:** maestro requiere dueño de alta/cambio y separación entre depuración, validación logística y Auditoría; C02 requiere taller específico de modelo por categoría y no tiene diseño aprobado; compras necesita tres proveedores por frente y reglas de autorización sin umbrales aprobados; recepción requiere nueva aceptación de usuarios e integración SGM comprobada; inventarios separa planos, toma offline y reportes; C14 mantiene en evaluación la carga manual a Valkimia y espera contrato/VPN/TEST/retorno. El resguardo de cambios en cajas alrededor del **15/12** sigue propuesto, pendiente de alcance y ratificación.
+
+**Registro:** [plan v0.6](../outputs/20261110/DIARCO_Bloque1_Plan_v0.6_20261110.xlsx), [hoja instructiva](kit_referentes_20261111/00_hoja_instructiva.md) y [planilla de tareas por frente](../outputs/20261110/DIARCO_Kit_Referentes_Trabajo_por_Frente_20261111.xlsx). `Gobierno` confirma al líder; `Decisiones` D02/D03/D14 queda en análisis hasta definir facultades, suplencias y dedicación; `Gates` permanece pendiente. La minuta es v1.0 para validación y contiene discrepancia de año en la transcripción.
 
 ## Novedades de las minutas del 06/11 revisadas el 09/11
 

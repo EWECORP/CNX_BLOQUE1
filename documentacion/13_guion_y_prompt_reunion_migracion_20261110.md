@@ -1,5 +1,7 @@
 # Reunión preliminar de migración Connexa · 10/11/2026
 
+**Estado posterior:** la reunión de confirmación ya se realizó; [minuta](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view). Eduardo Mañe quedó designado líder DIARCO. Para el encuentro con titulares/suplentes del 11/11 a las 14:00 usar el [kit actualizado](kit_referentes_20261111/00_hoja_instructiva.md); la primera capacitación comienza el 12/11 a las 10:00. El guion inferior permanece como antecedente de la presentación del 10/11.
+
 **Audiencia:** referentes DIARCO y Zeetrex. **Duración sugerida:** 60–75 minutos. **Carácter:** alineación y pedido de compromiso; la asistencia no equivale a aceptación de una función, prueba o gate. **Material:** [presentación de migración v1.1](../outputs/20261109/DIARCO_Connexa_Migracion_Reunion_Referentes_20261110_v1.1.pptx), Excel v0.5 editado el 09/11 y [acta de referentes](10_reunion_inicio_referentes_20261110.md).
 
 Para completar la planilla al terminar la presentación, seguir el [guion priorizado de carga, compromisos y delegación a Pablo Duplessy](14_guion_carga_planilla_y_compromisos_20261110.md).

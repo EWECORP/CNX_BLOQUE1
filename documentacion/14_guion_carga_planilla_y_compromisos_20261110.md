@@ -1,5 +1,7 @@
 # Guion de trabajo sobre la planilla · reunión de referentes 10/11/2026
 
+**Estado posterior:** la [minuta del 10/11](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view) confirmó a Eduardo Mañe como líder DIARCO. El libro fuente fue editado por el usuario después de este guion; la continuación vigente es el [plan v0.6](../outputs/20261110/DIARCO_Bloque1_Plan_v0.6_20261110.xlsx) y el [kit para la reunión del 11/11 a las 14:00](kit_referentes_20261111/00_hoja_instructiva.md). La primera capacitación comienza el 12/11 a las 10:00. Los rangos y estados de la foto anterior que siguen abajo son históricos.
+
 **Para quien conduce:** Eduardo Ettlin. **Planilla:** [DIARCO_Bloque1_Plan_v0.5.xlsx](../outputs/20261105/DIARCO_Bloque1_Plan_v0.5.xlsx), editada el 09/11. **Objetivo de la sesión de trabajo:** salir con decisiones nominales y agenda para iniciar C07 No Comestibles, más un dueño y una fecha de devolución para cada vacío. Este guion acompaña la [presentación y relato](13_guion_y_prompt_reunion_migracion_20261110.md); no convierte una propuesta en aprobación.
 
 ## Prioridad y criterio de salida

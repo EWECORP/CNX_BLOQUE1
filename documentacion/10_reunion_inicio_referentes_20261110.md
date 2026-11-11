@@ -1,5 +1,7 @@
 # Reunión de inicio con referentes · Bloque 1
 
+**Actualización posterior, 10/11:** la [minuta de confirmación](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view) designa a Eduardo Mañe como líder DIARCO. El encuentro con titulares y suplentes está convocado para **11/11 a las 14:00** y la primera capacitación comienza **12/11 a las 10:00**. Para conducir la siguiente reunión y entregar tareas usar el [kit operativo](kit_referentes_20261111/00_hoja_instructiva.md) y la [planilla por frente](../outputs/20261110/DIARCO_Kit_Referentes_Trabajo_por_Frente_20261111.xlsx). La agenda inferior queda como antecedente de preparación del 10/11.
+
 **Fecha prevista:** martes 10/11/2026. **Duración:** 75 minutos. **Objetivo:** iniciar formalmente el proceso de despliegue y asignar trabajo verificable a DIARCO y Zeetrex. El 10/11 es feriado en CABA y Córdoba según el [Decreto 1103/2026](https://www.argentina.gob.ar/normativa/nacional/norma-430580/texto); confirmar quién participará en vivo y ofrecer grabación/material y una segunda instancia de preguntas. El lunes 09/11 es feriado nacional y el 11/11 afecta a provincia de Buenos Aires.
 
 ## Agenda para conducir la charla

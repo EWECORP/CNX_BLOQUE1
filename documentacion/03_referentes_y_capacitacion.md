@@ -1,6 +1,8 @@
 # Referentes, aprendizaje y guías por módulo
 
-Versión 0.5 propuesta, actualizada el 30/10 según **Asignaciones**, **Formacion** y las minutas S33–S36. Marco B1: Estrategia de IMPLEMENTACION y actualización del usuario al 04/11. Los interlocutores son contactos para convocar; los campos de titular, suplente, dueño nominal, horas y aceptación siguen pendientes.
+Versión 0.6 de trabajo, con [confirmación de referentes del 10/11](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view) y planilla editada por el usuario. Marco B1: Estrategia de IMPLEMENTACION. **Eduardo Mañe es líder DIARCO confirmado.** Las designaciones cargadas por frente deben ratificarse individualmente el 11/11; dueño nominal, horas protegidas, aptitud y aceptación funcional siguen pendientes. Usar la [hoja instructiva para titulares y suplentes](kit_referentes_20261111/00_hoja_instructiva.md) y el [seguimiento por circuito](../outputs/20261110/DIARCO_Kit_Referentes_Trabajo_por_Frente_20261111.xlsx).
+
+**Cambios nominales a validar mañana:** M03 tiene a Christian Escudero como suplente en la planilla editada, mientras esta guía histórica mencionaba a José Luis Russman; M05 cuenta con seis filas y roles distintos de M04 en Perfumería, No Comestibles, Perecederos y Barrio; Barrio incluye a Nahuel sin apellido; M07 incorpora a Diego Barrese para planos y M10 a más personas de Stock/IT. La [ficha por frente](kit_referentes_20261111/06_fichas_por_frente.md) reúne las preguntas para separar funciones. El estado `L=Confirmado` de `Asignaciones` refleja el registro del usuario, no la aptitud ni la aceptación funcional.
 
 ## Acuerdo común del referente
 
@@ -22,7 +24,7 @@ Secuencia: explicación del objetivo y controles; demostración; práctica super
 
 Antes del paralelo del 04/11 se completa la formación mínima de los roles participantes. La formación masiva se programa por oleada y requiere que el referente haya demostrado el circuito que enseñará.
 
-Pablo Duplessy figura en Gobierno como CMZ propuesto. Su participación en sesiones, ciclos de prueba y adopción requiere confirmar agenda con el líder Zeetrex. CMZ coordina la preparación y la asistencia; el dueño DIARCO conserva la aceptación funcional y el referente DIARCO demuestra el uso.
+Pablo Duplessy figura en Gobierno editado como CMZ confirmado. Su agenda, facilitadores y evidencia por sesión deben quedar acordados con el líder Zeetrex. El equipo técnico está construyendo el material; CMZ coordina versión, convocatoria, práctica y seguimiento de brechas. El dueño DIARCO conserva la aceptación funcional y el referente DIARCO demuestra el uso.
 
 ## Paquete mínimo de material por módulo
 

@@ -1,6 +1,6 @@
 # Fuentes, supuestos y límites de la propuesta
 
-Versión 0.6. Corte documental 09/11/2026. No se consultaron bases productivas ni se ejecutaron corridas.
+Versión 0.7. Corte documental 10/11/2026. No se consultaron bases productivas ni se ejecutaron corridas.
 
 ## Trazabilidad
 
@@ -30,6 +30,8 @@ Versión 0.6. Corte documental 09/11/2026. No se consultaron bases productivas n
 | S39 | [Reunión interna de desarrollo Connexa](https://drive.google.com/file/d/1HFwTuKfdv_PB0kPVNdSG-VBgVYQyKTkO/view), 06/11 | Avances OC y scripts iniciales de listas; validación integral, sincronización recurrente, retorno Valkimia y volumen pendientes. «Martes 10» es objetivo técnico incompleto, no evidencia de entrega |
 | S40 | [Valkimia: alternativa técnica](https://drive.google.com/file/d/1piKBTjMIY8OBoOJp2jTMHXci5TpmzvTv/view), título 06/11 | Estudiar reproducción de interfaz SGM, retorno a SGM y recuperación Connexa. Viabilidad y fecha sin aprobar; cabecera de transcripción con año discrepante |
 | S41 | [Valkimia: reunión de dirección](https://drive.google.com/file/d/18oOl6nIVRCw5PGZ6dDsYubBVi8FaqtOg/view), título 06/11 | Priorizó documentación y prueba del contrato existente, con VPN/TEST pendientes. Entrega «martes y miércoles» sin fechas absolutas confirmadas; no fija puesta en marcha |
+| S42 | [Confirmación de referentes DIARCO–Connexa](https://drive.google.com/file/d/1wL4BTWbnnzcz03bo_aF6JV7SFlqf_dw_/view), 10/11 | Confirma a Eduardo Mañe como líder DIARCO y el método de capacitación, casos, evidencia y despliegue gradual. La minuta v1.0 está para validación; otros nombres, horas, reglas y fechas siguen por ratificar. Su transcripción tiene año discrepante. |
+| S43 | Plan v0.5 editado por el usuario el 10/11 y convocatoria comunicada | Gobierno y Asignaciones contienen nuevas designaciones; reunión de titulares/suplentes 11/11 a las 14:00 y primera capacitación 12/11 a las 10:00. La designación cargada no acredita aptitud ni aceptación funcional. |
 
 Rutas locales relativas al directorio de este documento. Las fuentes locales del framework están fuera de CNX_BLOQUE1; no se modificaron.
 
